@@ -4,8 +4,13 @@
 }
 
 @font-face {
-  font-family: segoe, italic;
+  font-family: segoe, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, italic;
   src: url("/fonts/segoesc.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: perpetua, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url("/fonts/PERTIBD.TTF") format("ttf");
 }
 
 main {
@@ -13,7 +18,7 @@ main {
 }
 
 main h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: perpetua, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #0a3641;
 }
 
