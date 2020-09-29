@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: segoe, italic;
-  src: url("/fonts/segoesc.ttf");
+  src: url("/fonts/segoesc.ttf") format("ttf");
 }
 
 main {
