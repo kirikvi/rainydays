@@ -14,7 +14,14 @@ nav li {
     display: inline-block;
 }
 
-img {
-    display: inline-block;
-    size: 10px;
+body {
+    font-family: 'candara' sans-serif;
+}
+
+h1 {
+    color: #de784d;
+}
+
+p {
+    color: #0a3641;
 }
