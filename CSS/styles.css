@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Candara, sans-serif;
+    src: url("/fonts/Candara.ttf") format("ttf");
+}
+
 main {
     background-color: #F5F5F5;
 }
@@ -23,5 +28,6 @@ h1 {
 }
 
 p {
+    font-family: candara, sans-serif;
     color: #0a3641;
 }
