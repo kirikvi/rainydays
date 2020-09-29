@@ -1,44 +1,41 @@
 @font-face {
-    font-family: Candara, sans-serif;
-    src: url("/fonts/Candara.ttf") format("ttf");
+  font-family: Candara, sans-serif;
+  src: url("/fonts/Candara.ttf") format("ttf");
 }
 
 @font-face {
-    font-family: TGL, din-condensed, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    src: url("/fonts/TGL.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: segoe, italic;
-    src: url("/fonts/segoesc.ttf");
+  font-family: segoe, italic;
+  src: url("/fonts/segoesc.ttf");
 }
 
 main {
-    background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 header {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 footer {
-    background-color: #0a3641;
+  background-color: #0a3641;
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 body {
-    font-family: 'candara' sans-serif;
+  font-family: "candara" sans-serif;
 }
 
 h1 {
-    font-family: TGL, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #de784d;
+  font-family: din-condensed, Impact, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #de784d;
 }
 
 p {
-    font-family: candara, sans-serif;
-    color: #0a3641;
+  font-family: candara, sans-serif;
+  color: #0a3641;
 }
