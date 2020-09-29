@@ -3,6 +3,16 @@
     src: url("/fonts/Candara.ttf") format("ttf");
 }
 
+@font-face {
+    font-family: TGL, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url("/fonts/TGL.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: segoe, italic;
+    src: url("/fonts/segoesc.ttf");
+}
+
 main {
     background-color: #F5F5F5;
 }
