@@ -20,8 +20,22 @@ footer {
   background-color: #0a3641;
 }
 
+nav ul {
+    padding: 0px;
+}
+
 nav li {
   display: inline-block;
+}
+
+nav a {
+    color: #0a3641;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: solid;
+    color: #de784d;
 }
 
 body {
