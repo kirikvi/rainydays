@@ -9,3 +9,7 @@ header {
 footer {
     background-color: #0a3641;
 }
+
+nav li {
+    display: inline-block;
+}
