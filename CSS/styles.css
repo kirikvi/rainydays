@@ -4,13 +4,14 @@
 }
 
 @font-face {
-  font-family: segoe, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, italic;
+  font-family: segoe, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, italic;
   src: url("/fonts/segoesc.ttf") format("ttf");
 }
 
 @font-face {
-    font-family: perpetua, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    src: url("/fonts/PERTIBD.TTF") format("ttf");
+  font-family: perpetua, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  src: url("/fonts/PERTIBD.TTF") format("ttf");
 }
 
 main {
@@ -18,8 +19,9 @@ main {
 }
 
 main h2 {
-    font-family: perpetua, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #0a3641;
+  font-family: perpetua, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  color: #0a3641;
 }
 
 header {
@@ -31,7 +33,7 @@ footer {
 }
 
 nav ul {
-    padding: 0px;
+  padding: 0px;
 }
 
 nav li {
@@ -39,13 +41,13 @@ nav li {
 }
 
 nav a {
-    color: #0a3641;
-    text-decoration: none;
+  color: #0a3641;
+  text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: solid;
-    color: #de784d;
+  text-decoration: solid;
+  color: #de784d;
 }
 
 body {
