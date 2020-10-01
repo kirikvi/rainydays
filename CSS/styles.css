@@ -14,6 +14,12 @@ main h2 {
 header {
   background-color: #fff;
 }
+
+.logo {
+  width: 97px;
+  height: 181px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 nav ul {
   padding: 0px;
 }
