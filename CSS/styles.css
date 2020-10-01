@@ -1,17 +1,17 @@
 @font-face {
   font-family: Candara, sans-serif;
-  src: url("/fonts/Candara.ttf") format("ttf");
+  src: url("../fonts/Candara.ttf") format("ttf");
 }
 
 @font-face {
   font-family: segoe, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, italic;
-  src: url("/fonts/segoesc.ttf");
+  src: url("../fonts/segoesc.ttf");
 }
 
 @font-face {
   font-family: perpetua, Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
-  src: url("/fonts/PERTIBD.TTF") local("perpetua");
+  src: url("../fonts/PERTIBD.TTF") local("perpetua");
 }
 
 main {
