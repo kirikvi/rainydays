@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: segoe, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, italic;
-  src: url("/fonts/segoesc.ttf") format("ttf");
+  src: url("/fonts/segoesc.ttf");
 }
 
 @font-face {
@@ -23,33 +23,27 @@ main h2 {
     sans-serif;
   color: #0a3641;
 }
-
 header {
   background-color: #fff;
 }
-
+nav ul {
+  padding: 0px;
+  position: sticky;
+}
 footer {
   background-color: #0a3641;
 }
-
-nav ul {
-  padding: 0px;
-}
-
 nav li {
   display: inline-block;
 }
-
 nav a {
   color: #0a3641;
   text-decoration: none;
 }
-
 nav a:hover {
   text-decoration: solid;
   color: #de784d;
 }
-
 body {
   font-family: "candara" sans-serif;
 }
