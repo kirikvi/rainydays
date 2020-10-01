@@ -39,7 +39,8 @@ body {
 h1 {
   font-family: "Abril Fatface", Impact, "Arial Narrow Bold", sans-serif;
   font-weight: 400;
-  font-style: uppercase;
+  font-style: normal;
+  text-transform: uppercase;
   color: #de784d;
 }
 
