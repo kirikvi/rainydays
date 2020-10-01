@@ -19,8 +19,7 @@ main {
 }
 
 main h2 {
-  font-family: perpetua, Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
+  font-family: "Dancing Script", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #0a3641;
 }
 header {
