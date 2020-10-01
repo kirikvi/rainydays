@@ -11,7 +11,7 @@
 @font-face {
   font-family: perpetua, Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
-  src: url("/fonts/PERTIBD.TTF") format("ttf");
+  src: url("/fonts/PERTIBD.TTF") local("perpetua");
 }
 
 main {
