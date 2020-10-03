@@ -59,6 +59,11 @@ footer li {
   color: #f5f5f5;
 }
 
+footer a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
 .logo2 {
   width: 399px;
   height: 215px;
