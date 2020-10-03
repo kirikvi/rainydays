@@ -24,7 +24,7 @@ nav ul {
   padding: 0px;
 }
 
-nav li, .links, .social_media {
+nav li {
   display: inline-block;
 }
 nav a {
@@ -67,4 +67,8 @@ footer a {
 .logo2 {
   width: 399px;
   height: 215px;
+}
+
+.links, .social_media {
+  text-transform: uppercase;
 }
