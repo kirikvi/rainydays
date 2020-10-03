@@ -24,7 +24,7 @@ nav ul {
   padding: 0px;
 }
 
-nav li {
+nav li, .links, .social_media {
   display: inline-block;
 }
 nav a {
