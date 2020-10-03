@@ -18,16 +18,12 @@ header {
 .logo {
   width: 181px;
   height: 97px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav ul {
   padding: 0px;
 }
 
-footer {
-  background-color: #0a3641;
-}
 nav li {
   display: inline-block;
 }
@@ -54,4 +50,16 @@ h1 {
 p {
   font-family: candara, sans-serif;
   color: #0a3641;
+}
+
+footer {
+  background-color: #0a3641;
+}
+footer li {
+  color: #f5f5f5;
+}
+
+.logo2 {
+  width: 399px;
+  height: 215px;
 }
