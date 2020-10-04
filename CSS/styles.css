@@ -93,3 +93,7 @@ footer a {
 .social_media {
   text-transform: uppercase;
 }
+
+.form__input {
+  display: block;
+}
