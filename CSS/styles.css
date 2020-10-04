@@ -63,6 +63,12 @@ p {
   color: #0a3641;
 }
 
+section.adventure {
+  background-image: url("/Images/tentbackground.jpg");
+  width: fit-content;
+  min-height: 400px;
+}
+
 footer {
   background-color: #0a3641;
 }
