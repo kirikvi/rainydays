@@ -24,7 +24,7 @@ nav a {
   text-decoration: none;
 }
 
-ul .menu a:hover,
+ul.menu a:hover,
 footer a:hover {
   text-decoration: solid;
   color: #de784d;
