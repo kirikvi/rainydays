@@ -12,13 +12,26 @@ header {
   height: 97px;
 }
 
+a .topnav {
+  text-decoration: none;
+  display: inline-block;
+  color: #545B65;
+}
+
+ul.topnav a:hover {
+  text-decoration: solid;
+  font-weight: 800;
+  color: #545B65;
+}
+
 nav ul {
   padding: 0px;
 }
 
-nav li, .topnav {
+nav li {
   display: inline-block;
 }
+
 nav a {
   color: #0a3641;
   text-decoration: none;
