@@ -89,6 +89,24 @@ h1 {
   font-size: 3.8rem;
 }
 
+.falljackets h2,
+.falljackets h3 {
+  font-family: din-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.falljackets h2 {
+  color: #0a3641;
+  size: 4rem;
+}
+
+.falljackets h3 {
+  color: #de784d;
+  size: 2rem;
+}
+
 .falljackets {
   display: flex;
   flex: 1;
