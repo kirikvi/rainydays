@@ -12,7 +12,7 @@ header {
   height: 97px;
 }
 
-a.topnav {
+ul  {
   text-decoration: none;
   display: inline-block;
   color: #545B65;
