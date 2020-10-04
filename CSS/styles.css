@@ -42,7 +42,7 @@ body {
 
 section.motto {
   background-image: url("/Images/header.jpg");
-  width: 100%;
+  width: fit-content;
   min-height: 400px;
 }
 
