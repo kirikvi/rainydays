@@ -3,14 +3,6 @@
   src: url("../fonts/Candara.ttf") format("ttf");
 }
 
-main {
-  background-color: #f5f5f5;
-}
-
-.motto h2 {
-  font-family: "Allura", cursive;
-  color: #0a3641;
-}
 header {
   background-color: #fff;
 }
@@ -40,6 +32,10 @@ body {
   font-family: "candara" sans-serif;
 }
 
+main {
+  background-color: #f5f5f5;
+}
+
 section.motto {
   background-image: url("/Images/header.jpg");
   width: fit-content;
@@ -52,7 +48,13 @@ h1 {
   font-style: normal;
   text-transform: uppercase;
   color: #f5f5f5;
-  font-size: 4rem;
+  font-size: 5rem;
+}
+
+.motto h2 {
+  font-family: "Allura", cursive;
+  color: #0a3641;
+  font-size: 2rem;
 }
 
 p {
@@ -63,6 +65,7 @@ p {
 footer {
   background-color: #0a3641;
 }
+
 footer li {
   color: #f5f5f5;
 }
