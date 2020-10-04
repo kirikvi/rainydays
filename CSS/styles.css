@@ -65,20 +65,6 @@ footer a:hover {
 body {
   font-family: "candara" sans-serif;
   background-color: #f5f5f5;
-  min-height: 100vh;
-  display: grid;
-  grid-gap: 1em;
-  grid-template-rows: auto 1fr;
-  grid-template-areas: 
-  'header header'
-  'main main'
-  'footer footer'
-    ;
-  }
-  
-  header{grid-area: header;}
-  main{grid-area: main;}
-  footer{grid-area: footer;}
 }
 
 section.motto {
@@ -190,4 +176,3 @@ footer a {
 .form__input {
   display: block;
 }
-
