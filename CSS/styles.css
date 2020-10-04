@@ -23,7 +23,8 @@ nav a {
   color: #0a3641;
   text-decoration: none;
 }
-nav a:hover,
+
+ul .menu a:hover,
 footer a:hover {
   text-decoration: solid;
   color: #de784d;
