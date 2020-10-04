@@ -50,6 +50,9 @@ nav a {
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: din-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 ul.menu a:hover,
