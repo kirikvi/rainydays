@@ -3,10 +3,6 @@
   src: url("../fonts/Candara.ttf") format("ttf");
 }
 
-font-family: din-condensed, sans-serif;
-font-weight: 400;
-font-style: normal;
-
 header {
   background-color: #fff;
 }
@@ -170,6 +166,14 @@ footer a {
 .logo2 {
   width: 399px;
   height: 215px;
+}
+
+footer ul .links {
+  text-align: center;
+}
+
+footer ul .social_media{
+  text-align: right;
 }
 
 .links,
