@@ -13,16 +13,22 @@ header {
 }
 
 ul.topnav {
-  text-decoration: none;
   padding: 0px;
+}
+
+ul.topnav li {
   display: inline-block;
-  color: #545B65;
+}
+
+ul.topnav a {
+  text-decoration: none;
+  color: #545b65;
 }
 
 ul.topnav a:hover {
   text-decoration: solid;
   font-weight: 800;
-  color: #545B65;
+  color: #545b65;
 }
 
 nav ul {
@@ -96,7 +102,6 @@ p {
   font-family: "candara", sans-serif;
   color: #0a3641;
 }
-
 
 section.adventure {
   background-image: url("/Images/tentbackground.jpg");
