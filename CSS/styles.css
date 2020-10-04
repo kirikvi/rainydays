@@ -59,6 +59,11 @@ h1 {
   font-size: 3.8rem;
 }
 
+.falljackets {
+  display: flex;
+  flex-direction: column;
+}
+
 p {
   font-family: "candara", sans-serif;
   color: #0a3641;
@@ -98,3 +103,8 @@ footer a {
 .form__input {
   display: block;
 }
+
+@media only screen and (min-width: 600px){
+  .container {
+      flex-direction: row;
+  }
