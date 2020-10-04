@@ -168,14 +168,6 @@ footer a {
   height: 215px;
 }
 
-footer ul .links {
-  text-align: center;
-}
-
-footer ul .social_media{
-  text-align: right;
-}
-
 .links,
 .social_media {
   text-transform: uppercase;
