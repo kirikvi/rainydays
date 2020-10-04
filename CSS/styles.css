@@ -42,11 +42,12 @@ ul.topnav a:hover {
 
 nav ul {
   padding: 0px;
+  text-align: center;
 }
 
 nav li {
   display: inline-block;
-  text-align: center;
+  
 }
 
 nav a {
