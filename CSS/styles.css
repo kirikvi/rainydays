@@ -65,19 +65,19 @@ h1 {
 }
 
 .yellow {
-  flex: 1;
+  flex: 2;
 }
 
 .orange {
-  flex: 1;
+  flex: 2;
 }
 
 .gray {
-  flex: 1;
+  flex: 2;
 }
 
 .green {
-  flex: 1;
+  flex: 2;
 }
 
 p {
