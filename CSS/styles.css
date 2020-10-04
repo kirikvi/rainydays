@@ -13,7 +13,6 @@ main {
 }
 header {
   background-color: #fff;
-  background-image: url("/Images/header.jpg");
 }
 
 .logo {
@@ -39,6 +38,11 @@ footer a:hover {
 }
 body {
   font-family: "candara" sans-serif;
+}
+
+section.motto {
+  background-image: url("/Images/header.jpg");
+  width: 100%;
 }
 
 h1 {
