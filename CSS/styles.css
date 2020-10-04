@@ -18,11 +18,12 @@ header {
 
 ul.topnav {
   padding: 0px;
+  text-align: right;
 }
 
 ul.topnav li {
   display: inline-block;
-  text-align: right;
+  
 }
 
 ul.topnav a {
