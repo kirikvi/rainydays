@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Candara, sans-serif;
+  font-family: "candara", sans-serif;
   src: url("../fonts/Candara.ttf") format("ttf");
 }
 
@@ -13,6 +13,7 @@ main {
 }
 header {
   background-color: #fff;
+  background-image: url("/Images/header.jpg");
 }
 
 .logo {
@@ -31,7 +32,8 @@ nav a {
   color: #0a3641;
   text-decoration: none;
 }
-nav a:hover, footer a:hover {
+nav a:hover,
+footer a:hover {
   text-decoration: solid;
   color: #de784d;
 }
@@ -48,7 +50,7 @@ h1 {
 }
 
 p {
-  font-family: candara, sans-serif;
+  font-family: "candara", sans-serif;
   color: #0a3641;
 }
 
@@ -69,6 +71,7 @@ footer a {
   height: 215px;
 }
 
-.links, .social_media {
+.links,
+.social_media {
   text-transform: uppercase;
 }
