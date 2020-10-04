@@ -22,7 +22,6 @@ ul.topnav {
 
 ul.topnav li {
   display: inline-block;
-  flex: right;
 }
 
 ul.topnav a {
@@ -54,6 +53,7 @@ nav a {
   font-family: din-condensed, sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-align: center;
 }
 
 ul.menu a:hover,
