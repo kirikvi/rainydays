@@ -90,7 +90,7 @@ h1 {
 }
 
 .falljackets h2,
-.falljackets h3 {
+.falljackets a {
   font-family: din-condensed, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -102,7 +102,7 @@ h1 {
   size: 4rem;
 }
 
-.falljackets h3 {
+.falljackets a {
   color: #de784d;
   size: 2rem;
 }
