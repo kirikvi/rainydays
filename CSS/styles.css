@@ -43,6 +43,7 @@ body {
 section.motto {
   background-image: url("/Images/header.jpg");
   width: 100%;
+  min-height: 400px;
 }
 
 h1 {
