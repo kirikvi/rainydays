@@ -12,7 +12,7 @@ header {
   height: 97px;
 }
 
-a .topnav {
+ul li .topnav {
   text-decoration: none;
   padding: 0px;
   display: inline-block;
