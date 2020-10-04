@@ -64,6 +64,10 @@ p {
   color: #0a3641;
 }
 
+.floated {
+  float: left;
+}
+
 section.adventure {
   background-image: url("/Images/tentbackground.jpg");
   min-height: 400px;
