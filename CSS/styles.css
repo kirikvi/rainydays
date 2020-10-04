@@ -40,6 +40,7 @@ section.motto {
   background-image: url("/Images/header.jpg");
   width: fit-content;
   min-height: 400px;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -67,6 +68,7 @@ section.adventure {
   background-image: url("/Images/tentbackground.jpg");
   width: fit-content;
   min-height: 400px;
+  background-repeat: no-repeat;
 }
 
 footer {
