@@ -4,12 +4,13 @@
 }
 
 /*Header and navigation*/
-header {
+/*header {
   background-color: #fff;
   position: relative;
   width: 100%;
   height: 120px;
-}
+}*/
+
 .logo {
   width: 181px;
   height: 97px;
@@ -18,6 +19,7 @@ header {
 .nav-flex-container {
   display: inline-flex;
   background-color: #fff;
+  width: 100%
 }
 .nav-flex-item, .shop-flex-item {
   display: flex;
