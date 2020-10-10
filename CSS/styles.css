@@ -12,6 +12,7 @@ header {
 .logo {
   width: 181px;
   height: 97px;
+  margin: 50px;
 }
 ul.topnav {
   padding: 0px;
