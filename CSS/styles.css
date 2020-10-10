@@ -17,6 +17,7 @@ header {
 }
 .nav-flex-container {
   display: inline-flex;
+  background-color: #fff;
 }
 .nav-flex-item, .shop-flex-item {
   display: flex;
