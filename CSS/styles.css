@@ -28,7 +28,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 40px;
   flex:1 0 50%; 
 }  
 ul.topnav {
