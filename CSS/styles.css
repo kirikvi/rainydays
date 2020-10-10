@@ -87,10 +87,14 @@ footer a {
 }
 a:hover {
   color: #de784d;
+  text-transform: none;
 }
 .logo2 {
   width: 399px;
   height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .links,
 .social_media {
@@ -107,7 +111,7 @@ input[type="submit"] {
 }
 input[type="email"] {
   padding: 5px 10px;
-  margin; 40px 0;
+  margin: 40px 0;
 }
 input[type="submit"]:hover {
   background-color: #de784d;
