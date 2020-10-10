@@ -1,6 +1,5 @@
 /*Header*/
 section.motto {
-
     background-image: url("/Images/header.jpg");
     min-height: 400px;
     background-repeat: no-repeat;
@@ -14,9 +13,11 @@ section.motto {
     text-transform: uppercase;
     color: #f5f5f5;
     font-size: 4.5rem;
-    text-align: center;
     margin-top: 100px;
     margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .motto h2 {
