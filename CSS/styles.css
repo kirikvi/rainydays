@@ -8,6 +8,7 @@ header {
   background-color: #fff;
   position: relative;
   width: 100%;
+  height: fit-content;
 }
 .logo {
   width: 181px;
