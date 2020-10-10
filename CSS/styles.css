@@ -4,12 +4,11 @@
 }
 
 /*Header and navigation*/
-/*header {
+header {
   background-color: #fff;
-  position: relative;
   width: 100%;
   height: 120px;
-}*/
+}
 
 .logo {
   width: 181px;
@@ -19,6 +18,8 @@
 .nav-flex-container {
   display: inline-flex;
   background-color: #fff;
+  height: 120px
+
 }
 .nav-flex-item, .shop-flex-item {
   background-color: #fff;
@@ -63,6 +64,7 @@ nav a,.shop-flex-item a {
   text-transform: uppercase;
   font-family: "din-condensed", sans-serif;
   font-weight: 300;
+  font-size: 1rem;
   font-style: normal;
   list-style-type: none;
 }
