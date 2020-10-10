@@ -18,8 +18,10 @@
 }
 .nav-flex-container {
   display: inline-flex;
+}
+.nav-flex-item, .shop-flex-item {
   background-color: #fff;
-  width: 100%
+  width: 50%
 }
 .nav-flex-item, .shop-flex-item {
   display: flex;
