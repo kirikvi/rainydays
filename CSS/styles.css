@@ -6,7 +6,7 @@
 /*Header and navigation*/
 header {
   background-color: #fff;
-  position: fixed;
+  position: sticky;
   width: 100%;
 }
 .logo {
@@ -18,12 +18,16 @@ header {
   display: inline-flex;
 }
 .nav-flex-item {
-  flex: 1 1 auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  flex:4 1 100px; 
 }
 .shop-flex-item {
-  flex: 1 1 100px;
-}
+  margin: 40px;
+  padding: 10px;
+}  
 ul.topnav {
   padding: 0px;
   text-align: right;
@@ -31,7 +35,7 @@ ul.topnav {
 ul.topnav li {
   display: inline-block;
 }
-ul.topnav a {
+ul.topnav a, shop-flex-item a{
   text-decoration: none;
   color: #545b65;
   font-family: din-condensed, sans-serif;
@@ -39,7 +43,6 @@ ul.topnav a {
   font-style: normal;
 }
 ul.topnav a:hover {
-  text-decoration: solid;
   font-weight: 800;
   color: #545b65;
 }
@@ -50,18 +53,19 @@ nav ul {
 nav li {
   display: inline-block;
 }
-nav a {
+nav a,.shop-flex-item a {
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
   font-family: din-condensed, sans-serif;
   font-weight: 300;
   font-style: normal;
+  list-style-type: none;
 }
-ul.menu a:hover {
-  text-decoration: solid;
+ul.menu a:hover, .shop-flex-item:hover {
   color: #de784d;
-  text-transform: uppercase;
+  list-style-type: none;
+  padding: 0px;
 }
 
 /*Body*/
