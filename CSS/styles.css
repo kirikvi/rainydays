@@ -22,7 +22,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 40px;
-  flex:1 0 200px, nowrap; 
+  flex:1 0 auto, nowrap; 
 }  
 ul.topnav {
   padding: 0px;
