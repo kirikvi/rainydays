@@ -17,14 +17,12 @@ header {
 }
 .nav-flex-container {
   display: inline-flex;
-  background-color: #fff;
-  height: 105px
+  height: 100px
 
 }
 .nav-flex-item, .shop-flex-item {
-  background-color: #fff;
   width: 50%;
-  height: 105px;
+  height: 100px;
 }
 .nav-flex-item, .shop-flex-item {
   display: flex;
