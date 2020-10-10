@@ -46,14 +46,14 @@ ul.topnav a:hover {
   font-weight: 800;
   color: #545b65;
 }
-/*nav ul {
+nav ul {
   padding: 0px;
   text-align: center;
 }
 nav li {
   display: inline-block;
 }
-nav a,*/ .shop-flex-item a {
+nav a, .shop-flex-item a {
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
