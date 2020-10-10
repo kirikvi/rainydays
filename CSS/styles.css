@@ -18,10 +18,12 @@
 }
 .nav-flex-container {
   display: inline-flex;
+  background-color: #fff;
 }
 .nav-flex-item, .shop-flex-item {
   background-color: #fff;
-  width: 50%
+  width: 50%;
+  height: 120px;
 }
 .nav-flex-item, .shop-flex-item {
   display: flex;
