@@ -9,7 +9,6 @@ header {
   width: 100%;
   height: 110px;
 }
-
 .logo {
   width: 181px;
   height: 97px;
@@ -18,7 +17,6 @@ header {
 .nav-flex-container {
   display: inline-flex;
   height: 100px
-
 }
 .nav-flex-item, .shop-flex-item {
   width: 50%;
@@ -68,13 +66,12 @@ nav a,.shop-flex-item a {
 ul.menu a:hover, .shop-flex-item:hover {
   color: #de784d;
 }
-
 /*Body*/
 body {
   font-family: "candara" sans-serif;
   background-color: #f5f5f5;
+  margin: 0px;
 }
-
 /*Footer*/
 footer {
   background-color: #0a3641;
@@ -82,7 +79,6 @@ footer {
 .flex-container {
   display: flex;
 }
-
 .flex-item-logo {
   flex: 1.8 0 150px;
 }
