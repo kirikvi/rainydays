@@ -17,13 +17,13 @@ header {
 .nav-flex-container {
   display: inline-flex;
 }
-/*.nav-flex-item {
+.nav-flex-item {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px;
   flex:4 1 100px; 
-} */
+}
 .shop-flex-item {
   margin: 40px;
   padding: 10px;
@@ -35,7 +35,7 @@ ul.topnav {
 ul.topnav li {
   display: inline-block;
 }
-ul.topnav a, shop-flex-item a{
+ul.topnav a, .shop-flex-item a{
   text-decoration: none;
   color: #545b65;
   font-family: din-condensed, sans-serif;
@@ -57,7 +57,7 @@ nav a,.shop-flex-item a {
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: din-condensed, sans-serif;
+  font-family: "din-condensed", sans-serif;
   font-weight: 300;
   font-style: normal;
   list-style-type: none;
