@@ -24,9 +24,10 @@ header {
   margin: 40px;
   flex:4 1 100px; 
 }
-.shop-flex-item {
+.shop-flex-item, .shop-flex-item:hover {
   margin: 40px;
   padding: 10px;
+  flex-wrap: nowrap;
 }  
 ul.topnav {
   padding: 0px;
