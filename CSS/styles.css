@@ -17,17 +17,12 @@ header {
 .nav-flex-container {
   display: inline-flex;
 }
-.nav-flex-item {
+.nav-flex-item, .shop-flex-item, .shop-flex-item:hover {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px;
-  flex:4 1 100px; 
-}
-.shop-flex-item, .shop-flex-item:hover {
-  margin: 40px;
-  padding: 10px;
-  flex-wrap: nowrap;
+  flex:4 1 100px, nowrap; 
 }  
 ul.topnav {
   padding: 0px;
@@ -36,10 +31,10 @@ ul.topnav {
 ul.topnav li {
   display: inline-block;
 }
-ul.topnav a, .shop-flex-item a{
+ul.topnav a {
   text-decoration: none;
   color: #545b65;
-  font-family: din-condensed, sans-serif;
+  font-family: "din-condensed", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
