@@ -17,6 +17,13 @@ header {
 .nav-flex-container {
   display: inline-flex;
 }
+.nav-flex-item {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.shop-flex-item {
+  flex: 1 1 100px;
+}
 ul.topnav {
   padding: 0px;
   text-align: right;
