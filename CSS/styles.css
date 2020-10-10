@@ -22,7 +22,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 40px;
-  flex:4 1 100px, nowrap; 
+  flex:1 0 200px, nowrap; 
 }  
 ul.topnav {
   padding: 0px;
@@ -60,6 +60,7 @@ nav a,.shop-flex-item a {
 }
 ul.menu a:hover, .shop-flex-item:hover {
   color: #de784d;
+  text-transform: uppercase;
   list-style-type: none;
   padding: 0px;
 }
