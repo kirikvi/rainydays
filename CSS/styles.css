@@ -17,7 +17,7 @@ header {
 .nav-flex-container {
   display: inline-flex;
 }
-.nav-flex-item, .shop-flex-item, .shop-flex-item:hover {
+.nav-flex-item, .shop-flex-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,9 +60,6 @@ nav a,.shop-flex-item a {
 }
 ul.menu a:hover, .shop-flex-item:hover {
   color: #de784d;
-  text-transform: uppercase;
-  list-style-type: none;
-  padding: 0px;
 }
 
 /*Body*/
