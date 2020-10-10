@@ -30,7 +30,17 @@ section.motto {
   }
   
   /*Jacket list*/
-  .falljackets h2,
+  .jacket-container {
+    display: inline-flex;
+  }
+  .jacket-item {
+    flex: 1 1 auto;
+    padding: 70px;
+    flex-wrap: nowrap;
+  }
+
+
+  /*.falljackets h2,
   .falljackets a {
     font-family: din-condensed, sans-serif;
     font-weight: 300;
@@ -68,6 +78,7 @@ section.motto {
   .green {
     flex: 2;
   }
+*/
   
   p {
     font-family: "candara", sans-serif;
