@@ -57,6 +57,10 @@ h1 {
     font-size: 2rem;
   }
 
+div img {
+    box-shadow: 5px 5px 20px;
+}
+
 /*.falljackets h2,
   .falljackets a {
     font-family: din-condensed, sans-serif;
