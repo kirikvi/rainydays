@@ -41,7 +41,7 @@ h1 {
     padding: 12px;
     border: 1px #0a3641;
     text-decoration: none;
-    position: center;
+    text-align: center;
 }
 
 .btn:hover {
