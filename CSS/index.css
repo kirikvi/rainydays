@@ -24,7 +24,7 @@ h1 {
   font-family: "Allura", cursive;
   font-weight: 400;
   color: #0a3641;
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   text-align: center;
   margin-top: 10px;
 }
@@ -43,9 +43,8 @@ h1 {
 }
 .jacket-item {
   flex: 1 1 auto;
-  padding: 44px;
+  padding: 20px;
   flex-wrap: nowrap;
-  margin: 1rem;
 }
 
 .jacket-item a {
@@ -54,31 +53,11 @@ h1 {
     font-style: normal;
     text-transform: uppercase;
     color: #de784d;
-    font-size: 2rem;
   }
 
 div img {
     box-shadow: 5px 5px 20px;
 }
-
-/*.falljackets h2,
-  .falljackets a {
-    font-family: din-condensed, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-transform: uppercase;
-  }
-  
-  .falljackets h2 {
-    color: #0a3641;
-    size: 4rem;
-  }
-  
-  .falljackets a {
-    color: #de784d;
-    size: 2rem;
-  }
-*/
 
 p {
   font-family: "candara", sans-serif;
