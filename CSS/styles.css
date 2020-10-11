@@ -71,6 +71,7 @@ ul.menu a:hover, .shop-flex-item:hover {
 body {
   font-family: "candara" sans-serif;
   background-color: #f5f5f5;
+  max-width: 1920px;
 }
 /*Footer*/
 footer {
