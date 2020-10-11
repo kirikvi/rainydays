@@ -35,9 +35,19 @@ h1 {
 }
 .jacket-item {
   flex: 1 1 auto;
-  padding: 70px;
+  padding: 44px;
   flex-wrap: nowrap;
+  margin: 1rem;
 }
+
+.jacket-item a {
+    font-family: "din-condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #de784d;
+    size: 2rem;
+  }
 
 /*.falljackets h2,
   .falljackets a {
@@ -55,27 +65,6 @@ h1 {
   .falljackets a {
     color: #de784d;
     size: 2rem;
-  }
-  
-  .falljackets {
-    display: flex;
-    flex: 1;
-  }
-  
-  .yellow {
-    flex: 2;
-  }
-  
-  .orange {
-    flex: 2;
-  }
-  
-  .gray {
-    flex: 2;
-  }
-  
-  .green {
-    flex: 2;
   }
 */
 
