@@ -38,8 +38,10 @@ h1 {
     background-color: #f5f5f5;
     opacity: 80%;
     color: #0a3641;
+    padding: 8px;
     border: 1px #0a3641;
     text-decoration: none;
+    align-items: center;
 }
 
 .btn:hover {
