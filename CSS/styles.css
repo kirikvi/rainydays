@@ -15,22 +15,20 @@ header {
   margin: 50px;
   box-shadow: none;
 }
-.nav-container {
-  display: inline-grid;
-  grid-template-columns: 2fr 1fr 1fr;
+.nav-flex-container {
+  display: inline-flex;
+  height: 100px
 }
-/*.nav-item, .shop-item {
+.nav-flex-item, .shop-flex-item {
   width: 50%;
   height: 100px;
 }
-
 .nav-flex-item, .shop-flex-item {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex:1 0 83%; 
 }  
-*/
 ul.topnav {
   padding: 0px;
   text-align: right;
