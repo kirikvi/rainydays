@@ -18,7 +18,7 @@ header {
 .nav-flex-container {
   display: inline-flex;
   height: 100px;
-  width: 1000px;
+  max-width: 1263px;
   margin: 0 auto;
 }
 .nav-flex-item, .shop-flex-item {
