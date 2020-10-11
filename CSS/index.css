@@ -32,8 +32,8 @@ h1 {
 /*Jacket list*/
 .falljackets{
     text-align: center;
-    font-weight: 700;
-    size: 5rem;
+    font-weight: 500;
+    font-size: 80px;
     color: #0a3641;
     text-transform: uppercase;
     font-family: "din-condesed", sans-serif;
@@ -54,7 +54,7 @@ h1 {
     font-style: normal;
     text-transform: uppercase;
     color: #de784d;
-    size: 2rem;
+    font-size: 2rem;
   }
 
 /*.falljackets h2,
