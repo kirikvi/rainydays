@@ -72,7 +72,9 @@ section.adventure {
   min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px 0px;
+  background-position: bottom right;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 h4 {
