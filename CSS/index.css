@@ -55,7 +55,9 @@ h1 {
     color: #de784d;
   }
 
-div img {
+.yellow, .orange, .gray, .green {
+    width: 100px;
+    height: 100px;
     box-shadow: 5px 5px 20px;
 }
 
