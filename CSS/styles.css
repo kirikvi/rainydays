@@ -25,7 +25,7 @@ header {
 }
 .nav-flex-item, .shop-flex-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex:1 0 83%; 
 }  
