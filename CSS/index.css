@@ -33,7 +33,7 @@ h1 {
   margin-top: 10px;
 }
 
-.btn a {
+.btn {
     font-family: "candara", sans-serif;
     background-color: #f5f5f5;
     opacity: 80%;
@@ -41,6 +41,9 @@ h1 {
     padding: 12px;
     border: 1px #0a3641;
     text-decoration: none;
+}
+
+.btn a {
     display: inline;
     text-align: center;
     border-radius: 4px;
