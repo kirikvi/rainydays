@@ -42,14 +42,15 @@ header {
   height: 100px;
   max-width: 1263px;
   margin: 0 auto;
+  text-align: center;
 }
 .nav-flex-item,
 .shop-flex-item {
   max-width: 50%;
   height: 100px;
-  display: flex;
   align-items: center;
   flex: 1;
+  text-align: center;
 }
 
 ul.topnav {
