@@ -61,7 +61,7 @@ h1 {
 .falljackets{
     text-align: center;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 50px;
     color: #0a3641;
     text-transform: uppercase;
     font-family: "din-condesed", sans-serif;
@@ -86,7 +86,7 @@ h1 {
 .yellow, .orange, .gray, .green {
     max-width: 250px;
     max-height: 250px;
-    margin 0 auto;
+    margin: 0 auto;
 }
 
 p {
