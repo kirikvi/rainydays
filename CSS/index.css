@@ -33,6 +33,10 @@ h1 {
   margin-top: 10px;
 }
 
+.positioned {
+  position: relative;
+}
+
 .btn {
     font-family: "candara", sans-serif;
     background-color: #f5f5f5;
@@ -43,7 +47,7 @@ h1 {
     text-decoration: none;
 }
 
-.btn a {
+.motto a {
     display: inline;
     text-align: center;
     border-radius: 4px;
