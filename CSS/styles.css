@@ -51,6 +51,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   flex: 1;
+  flex-wrap: nowrap;
 }
 
 ul.topnav {
