@@ -42,6 +42,7 @@ header {
   height: 100px;
   max-width: 1263px;
   margin: 0 auto;
+  flex-wrap: nowrap;
 }
 .nav-flex-item,
 .shop-flex-item {
@@ -51,7 +52,6 @@ header {
   align-items: center;
   justify-content: space-evenly;
   flex: 1;
-  flex-wrap: nowrap;
 }
 
 ul.topnav {
