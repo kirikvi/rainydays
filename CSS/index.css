@@ -47,7 +47,7 @@ h1 {
     text-decoration: none;
 }
 
-.btn a {
+a .btn {
     display: inline;
     text-align: center;
     border-radius: 4px;
