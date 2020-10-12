@@ -47,7 +47,7 @@ header {
 .shop-flex-item {
   max-width: 50%;
   height: 100px;
-  display: flex;
+  display: flex, inline-block;
   align-items: center;
   flex: 1;
 }
