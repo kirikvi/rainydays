@@ -84,8 +84,8 @@ h1 {
   }
 
 .yellow, .orange, .gray, .green {
-    width: 20%;
-    height: 20%;
+    max-width: 250px;
+    max-height: 250px;
     margin 0 auto;
 }
 
