@@ -33,7 +33,7 @@ h1 {
   margin-top: 10px;
 }
 
-.btn {
+.btn a {
     font-family: "candara", sans-serif;
     background-color: #f5f5f5;
     opacity: 80%;
