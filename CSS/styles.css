@@ -43,6 +43,8 @@ header {
   max-width: 1263px;
   margin: 0 auto;
   flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .nav-flex-item,
 .shop-flex-item {
