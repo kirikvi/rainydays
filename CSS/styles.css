@@ -49,16 +49,9 @@ header {
   height: 100px;
   display: flex;
   align-items: center;
-  flex: 1 0 100%;
+  flex: 1;
 }
 
-.nav-flex-item {
-  text-align: center;
-}
-
-.shop-flex-item {
-  text-align: left;
-}
 ul.topnav {
   padding: 0px;
   text-align: right;
