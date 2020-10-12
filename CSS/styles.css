@@ -6,11 +6,11 @@
 /*Header and navigation*/
 header {
   background-color: #fff;
-  width: 100%;
+  max-width: 100%;
   height: 110px;
 }
 .logo {
-  width: 181px;
+  max-width: 181px;
   height: 97px;
   margin: 50px;
   box-shadow: none;
@@ -23,7 +23,7 @@ header {
 }
 .nav-flex-item,
 .shop-flex-item {
-  width: 50%;
+  max-width: 50%;
   height: 100px;
   display: flex;
   align-items: center;
