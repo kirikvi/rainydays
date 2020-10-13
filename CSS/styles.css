@@ -226,12 +226,12 @@ li {
   }
 
 .logo2 {
-  float: left;
-  margin: auto;
+  justify-content: center;
 }  
 
 .flex-item {
   clear: both;
+  display: flex;
 }
 } /*media query closing bracket*(
 
