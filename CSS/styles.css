@@ -232,6 +232,8 @@ li {
 .flex-item {
   clear: both;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 } /*media query closing bracket*(
 
