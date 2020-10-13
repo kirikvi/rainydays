@@ -70,13 +70,13 @@ margin: 0 40px;
   flex: 2;
   align-items: center;
   justify-content: center;
-  margin: 0 40px;
+  margin-left:40px;
 }
 nav ul {
   padding: 0px;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 nav li {
   display: inline-block;
