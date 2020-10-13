@@ -66,6 +66,7 @@ margin: 0 40px;
   flex: 2;
   align-items: center;
   justify-content: center;
+  margin: 0 40px;
 }
 nav ul {
   padding: 0px;
@@ -78,6 +79,9 @@ nav li {
   text-decoration: none;
   align-items: center;
   justify-content: center;
+}
+.mainnav a {
+  text-align: center;
 }
 nav.mainnav, nav a{
   color: #0a3641;
