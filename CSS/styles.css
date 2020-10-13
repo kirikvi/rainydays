@@ -91,11 +91,6 @@ ul.menu a:hover {
   color: #de784d;
   text-decoration: none;
 }
-.content-wrapper {
-  max-width: 150px;
-  justify-content: center;
-}
-
 /*Body*/
 body {
   font-family: "candara" sans-serif;
