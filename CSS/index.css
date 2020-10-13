@@ -121,9 +121,7 @@ div.box {
   background-color: #fff;
   height: 600px;
   max-width: 900px;
-  margin-top: auto;
-  margin-left: 300;
-  margin-right: 300;
+  margin: auto;
 }
 
 @media screen and (max-width: 1065px) {
