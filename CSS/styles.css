@@ -93,6 +93,7 @@ ul.menu a:hover {
 }
 .content-wrapper {
   max-width: 150px;
+  justify-content: center;
 }
 
 /*Body*/
