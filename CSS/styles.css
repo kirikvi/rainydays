@@ -188,7 +188,7 @@ li {
 }
 
 .instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
-  display: hidden;
+  display: none;
 }
 
 @media screen and (max-width: 885px) {
@@ -202,5 +202,6 @@ li {
  .instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
   display: inline; 
   color: #f5f5f5;
-}
-}
+  }
+} /*media query closing bracket*(
+
