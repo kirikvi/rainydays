@@ -120,8 +120,8 @@ section.adventure {
   color: #f5f5f5;
   font-size: 5.5rem;
   text-align: center;
-  padding-top: 180px;
-  padding-bottom:0;
+  position: relative;
+  top: 180px;
 }
 
 .p-waiting {
@@ -134,5 +134,5 @@ section.adventure {
   padding-top: 0;
   z-index: 1;
   position: relative;
-  bottom: 30px;
+  bottom: 45px;
 }
