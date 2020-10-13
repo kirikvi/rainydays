@@ -132,4 +132,7 @@ section.adventure {
   text-align: center;
   margin: 0;
   padding-top: 0;
+  z-index: 1;
+  position: relative;
+  bottom: 30px;
 }
