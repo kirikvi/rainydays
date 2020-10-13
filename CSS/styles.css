@@ -49,6 +49,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
 }
 .logo {
   max-width: 181px;
