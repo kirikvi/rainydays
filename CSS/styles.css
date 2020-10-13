@@ -49,8 +49,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  -ms-flex: 1; /* IE 10 */
-  flex: 1 0 150px;
 }
 .logo {
   max-width: 181px;
@@ -73,6 +71,8 @@ header {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1 0 150px;
 }
 nav ul {
   padding: 0px;
