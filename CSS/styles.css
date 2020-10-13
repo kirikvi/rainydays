@@ -109,6 +109,47 @@ body {
   overflow-x: hidden;
   flex-wrap: nowrap;
 }
+
+/*Jacket list*/
+.falljackets {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  color: #0a3641;
+  text-transform: uppercase;
+  font-family: "din-condesed", sans-serif;
+}
+.jacket-container {
+  display: inline-flex;
+  margin: auto;
+}
+.jacket-item {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.jacket-item a {
+  font-family: "din-condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #de784d;
+}
+
+.yellow,
+.orange,
+.gray,
+.green {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "candara", sans-serif;
+  color: #0a3641;
+}
+
 /*Footer*/
 footer {
   background-color: #0a3641;
