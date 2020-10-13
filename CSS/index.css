@@ -42,37 +42,37 @@ h1 {
 }
 
 .btn {
-    font-family: "candara", sans-serif;
-    background-color: #f5f5f5;
-    opacity: 80%;
-    color: #0a3641;
-    padding: 12px;
-    border: 1px #0a3641;
-    text-decoration: none;
+  font-family: "candara", sans-serif;
+  background-color: #f5f5f5;
+  opacity: 80%;
+  color: #0a3641;
+  padding: 12px;
+  border: 1px #0a3641;
+  text-decoration: none;
 }
 
 a.btn {
-    text-align: center;
-    border-radius: 4px;
-    margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .btn:hover {
-    background-color: #f5f5f5;
-    opacity: 80%;
-    color: #de784d;
-    border: 1px #de784d;
-    text-decoration: solid;
+  background-color: #f5f5f5;
+  opacity: 80%;
+  color: #de784d;
+  border: 1px #de784d;
+  text-decoration: solid;
 }
 
 /*Jacket list*/
-.falljackets{
-    text-align: center;
-    font-weight: 500;
-    font-size: 50px;
-    color: #0a3641;
-    text-transform: uppercase;
-    font-family: "din-condesed", sans-serif;
+.falljackets {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  color: #0a3641;
+  text-transform: uppercase;
+  font-family: "din-condesed", sans-serif;
 }
 .jacket-container {
   display: inline-flex;
@@ -84,17 +84,20 @@ a.btn {
 }
 
 .jacket-item a {
-    font-family: "din-condensed", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-transform: uppercase;
-    color: #de784d;
-  }
+  font-family: "din-condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #de784d;
+}
 
-.yellow, .orange, .gray, .green {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
+.yellow,
+.orange,
+.gray,
+.green {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
 }
 
 p {
@@ -138,8 +141,9 @@ section.adventure {
   bottom: 90px;
 }
 
-@media only screen (max-width: 1065px){
- .h2 { 
-  font-size: 3.5rem;
+@media screen and (max-width: 1065px) {
+.h2 {
+    font-size: 3.5rem;
   }
 }
+
