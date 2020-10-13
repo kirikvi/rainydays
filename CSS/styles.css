@@ -19,47 +19,11 @@ Icons
   src: url("../fonts/Candara.ttf") format("ttf");
 }
 
-/*Header and navigation*/
-header {
-  background-color: #fff;
-  max-width: 100%;
-  height: 110px;
-}
-
-/*.content-wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-} */
-
-.logo {
-  max-width: 181px;
-  height: 97px;
-  margin: 50px;
-  box-shadow: none;
-}
-.nav-flex-container {
-  display: inline-flex;
-  height: 100px;
-  max-width: 1263px;
-  margin: 0 auto;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.nav-flex-item,
-.shop-flex-item {
-  max-width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex: 1 1 100%;
-  flex-direction: row;
-}
-
+/*Header and navigation--------------------------*/
 ul.topnav {
   padding: 0px;
   text-align: right;
+  background-color: #f5f5f5;
 }
 ul.topnav li {
   display: inline-block;
@@ -75,15 +39,35 @@ ul.topnav a:hover {
   font-weight: 800;
   color: #545b65;
 }
+header {
+  background-color: #fff;
+  max-width: 100%;
+  height: 110px;
+}
+.logo {
+  max-width: 181px;
+  height: 97px;
+  margin: 50px;
+  box-shadow: none;
+}
+.nav-container {
+  display: inline-flex;
+  height: 100px;
+  max-width: 1263px;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
 nav ul {
   padding: 0px;
   text-align: center;
 }
 nav li {
   display: inline-block;
+  text-decoration: none;
 }
-nav a,
-.shop-flex-item a {
+nav.mainnav, nav a{
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
@@ -93,10 +77,11 @@ nav a,
   font-style: normal;
   list-style-type: none;
 }
-ul.menu a:hover,
-.shop-flex-item:hover {
+ul.menu a:hover {
   color: #de784d;
+  text-decoration: none;
 }
+
 /*Body*/
 body {
   font-family: "candara" sans-serif;
