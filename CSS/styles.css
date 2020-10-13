@@ -60,7 +60,9 @@ header {
 .mainnav {
   flex: 1;
 }
-
+.mainnav.cart {
+  flex: 2;
+}
 .nav-container {
   display: inline-flex;
   height: 100px;
