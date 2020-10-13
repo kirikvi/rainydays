@@ -76,6 +76,7 @@ a.btn {
 }
 .jacket-container {
   display: inline-flex;
+  margin: auto;
 }
 .jacket-item {
   flex: 1 1 auto;
