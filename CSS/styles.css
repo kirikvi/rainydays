@@ -50,7 +50,7 @@ header {
   align-items: center;
   justify-content: center;
   -ms-flex: 1; /* IE 10 */
-  flex: 1;
+  flex: 1 0 150px;
 }
 .logo {
   max-width: 181px;
