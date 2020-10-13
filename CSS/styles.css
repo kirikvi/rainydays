@@ -199,7 +199,7 @@ li {
 
  footer a {
   margin-top: 10px;
-  font-size: 3rem;
+  font-size: 2rem;
  }
 
  .links {
@@ -222,6 +222,7 @@ li {
   font-size: 3rem;
   text-align: center;
   margin: 0;
+  margin-top: 0;
   }
 
 .logo2 {
