@@ -115,7 +115,6 @@ main.information_background {
   background-size: cover;
   background-position: center;
   opacity: 80%;
-  position: fixed;
 }
 
 @media screen and (max-width: 1065px) {
