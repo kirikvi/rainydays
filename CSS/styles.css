@@ -61,6 +61,11 @@ margin: 0 40px;
   align-items: center;
   justify-content: center;
 }
+.mainnav1 {
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+}
 .mainnav.cart {
   flex: 2;
   align-items: center;
