@@ -191,6 +191,11 @@ li {
   display: none;
 }
 
+.fab, .far {
+  margin: 5px;
+
+}
+
 @media screen and (max-width: 885px) {
  .flex-container { 
   display: flex; 
@@ -238,7 +243,10 @@ li {
   display: block;
   flex-direction: column;
   justify-content: center;
+}
 
+.fab, .far {
+  font-size: 4rem;
 }
 } /*media query closing bracket*(
 
