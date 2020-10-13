@@ -132,6 +132,7 @@ footer a {
   color: #f5f5f5;
   text-decoration: none;
   padding: 0px;
+  font-family: "candara", sans-serif;
 }
 a:hover {
   color: #de784d;
@@ -148,6 +149,7 @@ a:hover {
 .links,
 .social_media {
   text-transform: uppercase;
+  font-family: "candara", sans-serif;
 }
 legend {
   color: #f5f5f5;
@@ -186,4 +188,6 @@ li {
 }
 
 
-
+@media screen and (max-width: 885px) {
+  flex-wrap: wrap;
+}
