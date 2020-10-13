@@ -191,5 +191,8 @@ li {
 @media screen and (max-width: 885px) {
  .flex-container { 
   flex-wrap: wrap;
-}
+ }
+ .social-media, .facebook-link, .twitter-link, .instagram-link {
+    display: none;
+ } 
 }
