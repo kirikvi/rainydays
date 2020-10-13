@@ -205,7 +205,7 @@ li {
  .links {
    display: none;
  }
- 
+
  .social_media, .facebook-link, .twitter-link, .instagram-link {
     display: none;
  } 
@@ -223,5 +223,14 @@ li {
   text-align: center;
   margin: 0;
   }
+
+.logo2 {
+  float: left;
+  margin: auto;
+}  
+
+.flex-item {
+  clear: both;
+}
 } /*media query closing bracket*(
 
