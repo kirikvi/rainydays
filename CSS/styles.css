@@ -13,11 +13,13 @@ Icons
 <i class="fas fa-shopping-cart"> - shopping cart
 -------------------------------------------*/
 
-
 @font-face {
   font-family: "candara", sans-serif;
   src: url("../fonts/Candara.ttf") format("ttf");
 }
+
+/*GENERAL STYLES ***************************************
+******************************************************************/
 
 /*Header and navigation--------------------------*/
 ul.topnav {
@@ -51,7 +53,7 @@ header {
   max-width: 181px;
   height: 97px;
   box-shadow: none;
-  flex: 2; 
+  flex: 2;
 }
 .mainnav {
   flex: 1;
@@ -67,7 +69,7 @@ header {
   flex: 2;
   align-items: center;
   justify-content: center;
-  margin-right:40px;
+  margin-right: 40px;
 }
 nav ul {
   padding: 0px;
@@ -84,7 +86,8 @@ nav li {
 .mainnav a {
   text-align: center;
 }
-nav.mainnav, nav a{
+nav.mainnav,
+nav a {
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
@@ -152,7 +155,7 @@ legend {
   position: relative;
   top: 55px;
   font-family: "candara", sans-serif;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 input[type="submit"] {
   background-color: #f5f5f5;
@@ -162,13 +165,13 @@ input[type="submit"] {
   border-radius: 2px;
   cursor: pointer;
   position: relative;
-  top: 55px
+  top: 55px;
 }
 input[type="email"] {
   padding: 5px 10px;
   margin: 0px 0;
   position: relative;
-  top: 55px
+  top: 55px;
 }
 input[type="submit"]:hover {
   background-color: #de784d;
@@ -181,3 +184,5 @@ li {
   list-style-type: none;
   padding: 0px;
 }
+
+

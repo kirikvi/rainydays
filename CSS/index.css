@@ -81,7 +81,6 @@ a.btn {
 .jacket-item {
   flex: 1 1 auto;
   padding: 20px;
-  flex-wrap: nowrap;
 }
 
 .jacket-item a {
