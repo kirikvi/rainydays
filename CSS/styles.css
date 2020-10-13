@@ -206,9 +206,10 @@ li {
     display: none;
  } 
 
- legend, input[type="submit"] input[type="email"] {
+ legend, input[type="submit"], input[type="email"] {
   justify-content: center;
   text-align: center;
+  font-size: 2rem;
   position: static;
   top: 0;
  }
