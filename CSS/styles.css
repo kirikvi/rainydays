@@ -187,12 +187,19 @@ li {
   padding: 0px;
 }
 
+.instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
+  display: none;
+}
 
 @media screen and (max-width: 885px) {
  .flex-container { 
   flex-wrap: wrap;
  }
- .social-media, .facebook-link, .twitter-link, .instagram-link {
+ .social_media, .facebook-link, .twitter-link, .instagram-link {
     display: none;
  } 
+
+ .instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
+  color: #f5f5f5;
+}
 }
