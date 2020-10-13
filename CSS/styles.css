@@ -231,9 +231,10 @@ li {
 
 .flex-item {
   clear: both;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
+
 }
 } /*media query closing bracket*(
 
