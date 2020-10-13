@@ -110,13 +110,23 @@ section.adventure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  align-items: center;
 }
 
-h4 {
+.p-adventure {
   font-family: "Abril Fatface", Impact, "Arial Narrow Bold", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
   color: #f5f5f5;
   font-size: 3.5rem;
+}
+
+.p-waiting {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  color: #0a3641;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 10px;
 }
