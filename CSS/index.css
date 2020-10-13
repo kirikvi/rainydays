@@ -124,6 +124,7 @@ div.box {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 1065px) {
