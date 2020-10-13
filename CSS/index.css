@@ -110,7 +110,6 @@ section.adventure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  align-items: center;
 }
 
 .p-adventure {
@@ -120,6 +119,7 @@ section.adventure {
   text-transform: uppercase;
   color: #f5f5f5;
   font-size: 3.5rem;
+  text-align: center;
 }
 
 .p-waiting {
