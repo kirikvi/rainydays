@@ -113,11 +113,11 @@ main.information_background {
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom right;
   opacity: 80%;
 }
 
-.box {
+div.box {
   background-color: #fff;
   height: 200px;
   max-width: 400px;
