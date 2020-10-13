@@ -193,17 +193,22 @@ li {
 
 @media screen and (max-width: 885px) {
  .flex-container { 
+  display: flex; 
   flex-direction: column;
  }
  .social_media, .facebook-link, .twitter-link, .instagram-link {
     display: none;
  } 
 
+ legend, input[type="submit"] input[type="email"] {
+  justify-content: center;
+ }
+
  .instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
   display: inline-block; 
   color: #f5f5f5;
   font-size: 3rem;
-  justify-content: center;
+  text-align: center;
   margin: 0;
   }
 } /*media query closing bracket*(
