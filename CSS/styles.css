@@ -196,6 +196,12 @@ li {
   display: flex; 
   flex-direction: column;
  }
+
+ footer a {
+  margin-top: 10px;
+  font-size: 3rem;
+ }
+
  .social_media, .facebook-link, .twitter-link, .instagram-link {
     display: none;
  } 
@@ -203,7 +209,6 @@ li {
  legend, input[type="submit"] input[type="email"] {
   justify-content: center;
   text-align: center;
-  align-items: center;
   position: static;
   top: 0;
  }
