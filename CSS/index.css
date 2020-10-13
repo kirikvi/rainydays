@@ -109,12 +109,19 @@ section.adventure {
 -----------------------------*/
 main.information_background {
   background-image: url("/Images/hike.jpg.jpg");
-  min-height: 400px;
+  min-height: 300px;
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   opacity: 80%;
+}
+
+.box {
+  background-color: #fff;
+  height: 200px;
+  max-width: 400px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1065px) {
