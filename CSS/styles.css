@@ -152,7 +152,6 @@ legend {
   top: 55px;
   font-family: "candara", sans-serif;
   text-transform: uppercase; 
-  font-size: 0.9rem;
 }
 input[type="submit"] {
   background-color: #f5f5f5;
@@ -170,7 +169,6 @@ input[type="email"] {
   position: relative;
   top: 55px
 }
-
 input[type="submit"]:hover {
   background-color: #de784d;
 }
