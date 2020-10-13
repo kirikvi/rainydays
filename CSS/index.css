@@ -1,4 +1,5 @@
-/*Header*/
+/*INDEX------------------------------------------------------
+------------------------------------------------------*/
 section.motto {
   background-image: url("/Images/header.jpg");
   min-height: 400px;
@@ -101,6 +102,20 @@ section.adventure {
   z-index: 1;
   position: relative;
   bottom: 90px;
+}
+
+
+/*ABOUT--------------------------
+-----------------------------*/
+main.information_background {
+  background-image: url("/Images/hike.jpg.jpg");
+  min-height: 400px;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 80%;
+  position: fixed;
 }
 
 @media screen and (max-width: 1065px) {
