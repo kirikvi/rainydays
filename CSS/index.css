@@ -133,3 +133,13 @@ h1 {
   }
 }
 
+/*JACKET SPECIFIC PAGE--------------------------
+-----------------------------*/
+.jacket-container {
+display: grid;
+grid-template-columns: 1fr 2fr 2fr;
+}
+
+.jacket.item {
+
+}
