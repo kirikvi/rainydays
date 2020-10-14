@@ -11,7 +11,7 @@ section.motto {
   padding-top: 100px;
 }
 
-h1 {
+.h1motto {
   font-family: "Abril Fatface", Impact, "Arial Narrow Bold", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -25,7 +25,7 @@ h1 {
   justify-content: center;
 }
 
-.motto h2 {
+.h2motto {
   font-family: "Allura", cursive;
   font-weight: 400;
   color: #0a3641;
@@ -38,7 +38,7 @@ h1 {
   text-align: center;
 }
 
-.positioned {
+.h1motto, h2.motto {
   position: relative;
 }
 
