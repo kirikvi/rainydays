@@ -258,6 +258,8 @@ li {
 
  .jacket-item {
   max-height: 200px;
+  justify-content: center;
+  padding: 20px; 
  }
 
  footer a {
