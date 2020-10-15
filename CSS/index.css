@@ -128,7 +128,7 @@ div.box {
 }
 
 @media screen and (max-width: 1065px) {
-h1 {
+.h1motto {
     font-size: 3.5rem;
   }
 }
