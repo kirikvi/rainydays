@@ -253,12 +253,13 @@ li {
  }
 
  .jacket-container {
-   flex-wrap: wrap;
+   flex-direction: column;
  }
 
  .jacket-item {
   max-height: 200px;
   justify-content: center;
+  align-items: center;
   padding: 20px; 
  }
 
