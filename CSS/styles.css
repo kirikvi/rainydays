@@ -49,6 +49,11 @@ header {
 .menu {
   display: flex;
 }
+
+#menu-icon {
+  display: none;
+}
+
 .logo {
   max-width: 181px;
   height: 97px;
@@ -289,5 +294,7 @@ li {
 .fab, .far {
   font-size: 4rem;
 }
-} /*media query closing bracket*(
+} /*media query closing bracket*/
 
+
+ 
