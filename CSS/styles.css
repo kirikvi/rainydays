@@ -256,6 +256,10 @@ li {
    flex-wrap: wrap;
  }
 
+ .jacket-item {
+  max-height: 200px;
+ }
+
  footer a {
   margin-top: 10px;
   font-size: 2rem;
