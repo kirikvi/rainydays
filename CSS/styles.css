@@ -252,6 +252,10 @@ li {
   justify-content: center;
  }
 
+ .jacket-container {
+   flex-wrap: wrap;
+ }
+
  footer a {
   margin-top: 10px;
   font-size: 2rem;
