@@ -233,79 +233,88 @@ li {
   padding: 0px;
 }
 
-.instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
+.instagram-icon,
+.facebook-icon,
+.twitter-icon,
+.flex-item-small {
   display: none;
 }
 
-.fab, .far {
+.fab,
+.far {
   margin: 5px;
-
 }
 
 @media screen and (max-width: 885px) {
- .flex-container { 
-  display: flex; 
-  flex-direction: column;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
- }
-
- .jacket-container {
-   flex-direction: column;
- }
-
- .jacket-item {
-  max-height: 200px;
-  justify-content: center;
-  align-items: center;
-  padding: 20px; 
- }
-
- footer a {
-  margin-top: 10px;
-  font-size: 2rem;
- }
-
- .links {
-   display: none;
- }
-
- .social_media, .facebook-link, .twitter-link, .instagram-link {
-    display: none;
- } 
-
- legend, input[type="submit"], input[type="email"] {
-  font-size: 1.2rem;
-  position: static;
-  top: 0;
- }
-
- .instagram-icon, .facebook-icon, .twitter-icon, .flex-item-small {
-  display: inline-block; 
-  color: #f5f5f5;
-  font-size: 3rem;
-  text-align: center;
-  margin: 0;
-  margin-top: 0;
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
 
-.logo2 {
-  justify-content: center;
-}  
+  .jacket-container {
+    flex-direction: column;
+  }
 
-.flex-item {
-  clear: both;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-}
+  .jacket-item {
+    max-height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
 
-.fab, .far {
-  font-size: 4rem;
-}
+  footer a {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .social_media,
+  .facebook-link,
+  .twitter-link,
+  .instagram-link {
+    display: none;
+  }
+
+  legend,
+  input[type="submit"],
+  input[type="email"] {
+    font-size: 1.2rem;
+    position: static;
+    top: 0;
+  }
+
+  .instagram-icon,
+  .facebook-icon,
+  .twitter-icon,
+  .flex-item-small {
+    display: inline-block;
+    color: #f5f5f5;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  .logo2 {
+    justify-content: center;
+  }
+
+  .flex-item {
+    clear: both;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fab,
+  .far {
+    font-size: 4rem;
+  }
 } /*media query closing bracket*/
-
-
- 
