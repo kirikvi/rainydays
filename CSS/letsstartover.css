@@ -36,15 +36,15 @@ header {
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #f5f5f5;
     min-height: 400px;
 }
 
-.jacket-img {
+/*.jacket-img {
     max-height: 150px;
     max-width: 150px;
-}
+} */
 
 footer {
     background-color: #0a3641;
