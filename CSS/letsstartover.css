@@ -37,6 +37,9 @@ header {
 main {
     background-color: #f5f5f5;
     min-height: 400px;
+    grid-template-areas:
+    'index-section-one index-section-one index-section-one index-section-one'
+    'index-section-two index-section-three index-section-four index-section-five'
 }
 
 footer {
@@ -47,4 +50,9 @@ footer {
 nav {grid-area: nav;}
 header {grid-area: header;}
 main {grid-area: main;}
+.index-section:nth-child(1){grid-area: index-section-one;}
+.index-section:nth-child(2){grid-area: index-section-two;}
+.index-section:nth-child(3){grid-area: index-section-three;}
+.index-section:nth-child(4){grid-area: index-section-four;}
+.index-section:nth-child(5){grid-area: index-section-five;}
 footer {grid-area: footer;}
