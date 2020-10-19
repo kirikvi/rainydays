@@ -43,8 +43,8 @@ main {
     'index-section-two index-section-three index-section-four index-section-five'
 }
 
-.index-section {
-    max-height: 100px;
+.jacket-img {
+    max-height: 60px;
     max-width: 60px;
 }
 
