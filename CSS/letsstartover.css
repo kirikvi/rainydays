@@ -43,6 +43,11 @@ main {
     'index-section-two index-section-three index-section-four index-section-five'
 }
 
+.index-section {
+    max-height: 100px;
+    max-width: 60px;
+}
+
 footer {
     background-color: #0a3641;
     min-height: 200px; 
