@@ -42,8 +42,13 @@ main {
     min-height: 400px;
 }
 
-section {
+.heading-index-section {
+    flex: 0 0 100%;
+}
+
+.index-section {
     padding: 10px;
+    flex: 1 1 auto;
 }
 
 /*.jacket-img {
