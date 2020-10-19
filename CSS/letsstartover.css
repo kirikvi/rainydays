@@ -17,6 +17,7 @@ body {
     display: grid;
     grid-gap: 10px;
     max-width: 800px;
+    margin: auto;
     grid-template-areas:
     'nav nav'
     'header header'
