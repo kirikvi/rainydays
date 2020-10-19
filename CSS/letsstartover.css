@@ -18,10 +18,10 @@ body {
     grid-gap: 10px;
     margin: auto;
     grid-template-areas:
-    'nav nav'
-    'header header'
-    'main main'
-    'footer footer'
+    'nav'
+    'header'
+    'main'
+    'footer'
 }
 
 nav {
