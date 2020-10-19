@@ -46,6 +46,10 @@ main {
     "index-section-two index-section-three index-section-four index-section-five";
 }
 
+.heading-index-section {
+    margin: auto;
+}
+
 .jacket-img {
   max-height: 150px;
   max-width: 150px;
