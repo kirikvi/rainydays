@@ -255,10 +255,6 @@ li {
     justify-content: center;
   }
 
-  .jacket-container {
-    flex-direction: column;
-  }
-
   .jacket-item {
     max-height: 200px;
     justify-content: center;
@@ -317,30 +313,9 @@ li {
   .far {
     font-size: 4rem;
   }
-} /*media query closing bracket*/
+} 
 
-
+/* SMALL SCREENS, MOBILE -----------------
+------------------------*/
 @media screen and (max-width: 400px) {
-  section.motto {
-    background-image: url(/Images/header.jpg);
-    display: none;
-    background-image: url("/Images/Mobile/m-mountain.jpg");
-    max-height: 75px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-position: center;
-  }
-  
-  .h1motto {
-    font-weight: 100;
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 0px;
-  }
-  
-  .h2motto {
-    font-size: 1rem;
-    margin-top: 0px;
-  }
-  
 }
