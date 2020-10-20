@@ -323,9 +323,10 @@ li {
 @media screen and (max-width: 400px) {
   section.motto {
     background-image: url("/Images/Mobile/m-mountain.jpg");
-    max-height: 100px;
+    max-height: 75px;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-position: center;
   }
   
   .h1motto {
