@@ -40,8 +40,12 @@ main {
   min-height: 400px;
 }
 
-.heading-index-section {
-    margin: auto;
+.main-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "din-condensed", sans-serif;
+    font-size: 3rem;
+    color: #0a3641;
 }
 
 .index-jacket-wrapper {
