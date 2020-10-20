@@ -323,8 +323,6 @@ li {
     display: flex;
     flex-direction: column;
     margin: auto;
-    justify-content: center;
-    align-content: center;
   }
   .jacket-item {
     flex: 1 1 auto;
