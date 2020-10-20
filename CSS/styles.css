@@ -319,9 +319,6 @@ li {
 /* SMALL SCREENS, MOBILE -----------------
 ------------------------*/
 @media screen and (max-width: 400px) {
-  section.motto {
-    background-position: center;
-
   .jacket-container {
     display: flex;
     flex-direction: column;
