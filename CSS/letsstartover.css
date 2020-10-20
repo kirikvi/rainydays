@@ -13,6 +13,95 @@ Icons
 <i class="fas fa-shopping-cart"> - shopping cart
 -------------------------------------------*/
 
+/*Header and navigation--------------------------*/
+ul.topnav {
+    padding: 0px;
+    text-align: right;
+    background-color: #f5f5f5;
+  }
+  ul.topnav li {
+    display: inline-block;
+  }
+  ul.topnav a {
+    text-decoration: none;
+    color: #545b65;
+    font-family: "din-condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  ul.topnav a:hover {
+    font-weight: 800;
+    color: #545b65;
+  }
+  header {
+    background-color: #fff;
+    max-width: 100%;
+    height: 110px;
+  }
+  .menu {
+    display: flex;
+  }
+  
+  #menu-icon {
+    display: none;
+  }
+  
+  .logo {
+    max-width: 181px;
+    height: 97px;
+    box-shadow: none;
+    flex: 2;
+  }
+  .mainnav {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainnav1 {
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainnav.cart {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+  }
+  nav ul {
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav li {
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainnav a {
+    text-align: center;
+  }
+  nav.mainnav,
+  nav a {
+    color: #0a3641;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "din-condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-style: normal;
+    list-style-type: none;
+  }
+  ul.menu a:hover {
+    color: #de784d;
+    text-decoration: none;
+  }
+
+/*BODY--------------------------------
+--------------------------*/
+
 body {
   overflow-x: hidden;
   display: grid;
