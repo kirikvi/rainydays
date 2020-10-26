@@ -62,9 +62,9 @@ header {
   display: flex;
 }
 
-#menu-icon {
+/*#menu-icon {
   display: none;
-}
+} */
 
 .logo {
   max-width: 181px;
