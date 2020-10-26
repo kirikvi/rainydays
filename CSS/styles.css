@@ -62,9 +62,15 @@ header {
   display: flex;
 }
 
-/*#menu-icon {
+label {
+  margin: 0 40px 0;
+  line-height: 70px;
   display: none;
-} */
+}
+
+#menu-icon {
+  display: none;
+}
 
 .logo {
   max-width: 181px;
