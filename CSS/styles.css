@@ -77,6 +77,12 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.mainnav:hover {
+  color: #de784d;
+  transition: 0.9s;
+}
+
 .mainnav1 {
   flex: 3;
   align-items: center;
@@ -264,6 +270,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 230px;
   }
 
   .flex-container {
