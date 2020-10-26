@@ -79,7 +79,17 @@ label {
   height: 97px;
   box-shadow: none;
   flex: 2;
+  order: 1;
 }
+
+.nav-categories {
+  order: 2;
+}
+
+.nav-search-cart {
+  order: 3;
+}
+
 .mainnav {
   flex: 1;
   align-items: center;
