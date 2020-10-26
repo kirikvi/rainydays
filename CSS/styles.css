@@ -20,6 +20,17 @@ Icons
 
 /*GENERAL STYLES ***************************************
 ******************************************************************/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
 
 /*Header and navigation--------------------------*/
 ul.topnav {
