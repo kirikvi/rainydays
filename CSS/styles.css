@@ -66,6 +66,8 @@ label {
   margin: 0 40px 0;
   line-height: 70px;
   display: none;
+  width: 26px;
+  float: right;
 }
 
 #menu-icon {
@@ -114,6 +116,7 @@ nav li {
 }
 .mainnav a {
   text-align: center;
+  clear: right;
 }
 nav.mainnav,
 nav a, i {
@@ -344,7 +347,28 @@ li {
 
 /* SMALL SCREENS, MOBILE -----------------
 ------------------------*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-menu a {
+    display: block;
+    margin: 0;
+  }
+
+  #menu-icon:checked + .nav-menu {
+    display: block;
+  }
+
+
   .jacket-container {
     display: flex;
     flex-direction: column;
