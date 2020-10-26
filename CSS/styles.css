@@ -291,13 +291,14 @@ li {
     cursor: pointer;
   }
 
-  .nav-menu {
+  .nav-categories {
     text-align: center;
     width: 100%;
     display: none;
+    order: 1;
   }
 
-  .nav-menu a {
+  .nav-categories a {
     display: block;
     margin: 0;
   }
@@ -322,10 +323,6 @@ li {
     box-shadow: none;
     flex: 2;
     order: 2;
-  }
-  
-  .nav-categories {
-    order: 1;
   }
   
   .nav-search-cart {
