@@ -120,7 +120,7 @@ nav a, i {
   font-style: normal;
   list-style-type: none;
 }
-ul.menu a:hover {
+ul.menu a:hover, i:hover {
   color: #de784d;
   text-decoration: none;
   transition: 0.9s;
