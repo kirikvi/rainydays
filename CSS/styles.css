@@ -32,6 +32,7 @@ img {
   max-width: 100%;
 }
 
+
 /*Header and navigation--------------------------*/
 ul.topnav {
   padding: 0px;
@@ -116,6 +117,7 @@ nav a {
 ul.menu a:hover {
   color: #de784d;
   text-decoration: none;
+  transition: 0.9s;
 }
 /*Body*/
 body {
@@ -258,6 +260,10 @@ li {
 }
 
 @media screen and (max-width: 885px) {
+ nav ul li {
+   flex-direction: column;
+ }
+
   .flex-container {
     display: flex;
     flex-direction: column;
