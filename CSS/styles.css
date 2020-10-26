@@ -63,6 +63,8 @@ header {
   align-items: center;
   margin: auto;
   padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: sticky;
 }
 
 .logo {
@@ -267,8 +269,6 @@ li {
     font-weight: 300;
     font-size: 1.5rem;
   }
-
-
 
   /*FOOTER*/
   .flex-container {
