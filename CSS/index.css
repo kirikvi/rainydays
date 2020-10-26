@@ -132,7 +132,7 @@ div.box {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-@media screen and (max-width: 885px) {
+@media screen and (max-width: 886px) {
   .h1motto {
     font-size: 3rem;
   }
