@@ -316,6 +316,23 @@ li {
     justify-content: center;
   }
 
+  .logo {
+    max-width: 181px;
+    height: 97px;
+    box-shadow: none;
+    flex: 2;
+    order: 2;
+  }
+  
+  .nav-categories {
+    order: 1;
+  }
+  
+  .nav-search-cart {
+    order: 3;
+  }
+  
+
   .jacket-item {
     min-height: 400px;
     justify-content: center;
