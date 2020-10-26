@@ -117,7 +117,7 @@ i:hover {
 body {
   font-family: "candara", sans-serif;
   background-color: #f5f5f5;
-  max-width: 1920px;
+  max-width: 100%;
   overflow-x: hidden;
   flex-wrap: nowrap;
 }
