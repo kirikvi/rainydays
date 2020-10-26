@@ -89,7 +89,6 @@ nav li {
   display: inline-block;
   text-decoration: none;
   align-items: center;
-  justify-content: center;
 }
 
 .mainnav,
@@ -100,9 +99,11 @@ nav a {
   text-transform: uppercase;
   font-family: "din-condensed", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-style: normal;
   list-style-type: none;
+  padding: 0 10px;
+  text-align: center;
 }
 
 .nav-search-cart i {
