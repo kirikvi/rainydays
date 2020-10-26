@@ -260,7 +260,7 @@ li {
 @media screen and (max-width: 885px) {
   .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -332,7 +332,7 @@ li {
 @media screen and (max-width: 400px) {
   .jacket-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
   }
   .jacket-item {
