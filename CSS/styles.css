@@ -277,7 +277,7 @@ li {
   }
 
   .jacket-item {
-    max-height: 400px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
     padding: 20px;
