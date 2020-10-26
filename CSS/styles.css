@@ -260,9 +260,11 @@ li {
 }
 
 @media screen and (max-width: 885px) {
- nav ul li {
-   flex-direction: column;
- }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .flex-container {
     display: flex;
