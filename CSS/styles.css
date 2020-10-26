@@ -276,6 +276,27 @@ li {
 }
 
 @media screen and (max-width: 885px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-menu a {
+    display: block;
+    margin: 0;
+  }
+
+  #menu-icon:checked + .nav-menu {
+    display: block;
+  }
+
+
   .flex-container {
     display: flex;
     flex-direction: column;
@@ -348,26 +369,6 @@ li {
 /* SMALL SCREENS, MOBILE -----------------
 ------------------------*/
 @media screen and (max-width: 500px) {
-  label {
-    display: block;
-    cursor: pointer;
-  }
-
-  .nav-menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
-
-  .nav-menu a {
-    display: block;
-    margin: 0;
-  }
-
-  #menu-icon:checked + .nav-menu {
-    display: block;
-  }
-
 
   .jacket-container {
     display: flex;
