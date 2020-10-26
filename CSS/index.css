@@ -131,27 +131,3 @@ div.box {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
 }
-
-@media screen and (max-width: 1065px) {
-  .h1motto {
-    font-size: 3.5rem;
-  }
-}
-@media screen and (max-width: 885px) {
-  .p-adventure {
-    font-weight: 350;
-    font-size: 3rem;
-    padding-top: 200px;
-    padding-bottom: 0;
-    top: 30px;
-  }
-  .p-waiting {
-    font-family: "Allura", cursive;
-    font-weight: 200;
-    color: #0a3641;
-    font-size: 2rem;
-    margin: 0;
-    padding-top: 0;
-    bottom: 20px;
-  }
-}
