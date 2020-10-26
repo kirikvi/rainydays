@@ -110,7 +110,7 @@ nav li {
   text-align: center;
 }
 nav.mainnav,
-nav a {
+nav a, i {
   color: #0a3641;
   text-decoration: none;
   text-transform: uppercase;
