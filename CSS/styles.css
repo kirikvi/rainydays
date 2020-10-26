@@ -110,12 +110,20 @@ nav a {
   font-size: 1.2rem;
   color: #0a3641;
 }
+
 ul.menu a:hover,
 i:hover {
   color: #de784d;
   text-decoration: none;
   transition: 0.9s;
 }
+
+#current {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #de784d;
+}
+
 /*Body*/
 body {
   font-family: "candara", sans-serif;
