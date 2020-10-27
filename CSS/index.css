@@ -80,6 +80,11 @@ a.btn {
 }
 
 /*FALL JACKETS*/
+.content-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .jacket-item {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin: 10px;
