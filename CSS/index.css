@@ -157,8 +157,39 @@ div.box {
 /*JACKET SPECIFIC PAGE--------------------------
 -----------------------------*/
 .specific-jacket-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  display: flex;
+}
+
+.specific-img {
+  min-width: 250px;
+}
+
+.specific-jacket-item,
+.specific-jacket-item-form {
+  margin: 20px;
+}
+
+.specific-jacket-item-form {
+  min-width: 200px;
+}
+
+hr.separator {
+  margin-top: 50px;
+}
+
+.flex-specific {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.flex-specific-item {
+  padding: 0 100px 50px;
+}
+
+li.specs {
+  list-style-type: circle;
 }
 
 @media screen and (max-width: 886px) {
@@ -186,4 +217,9 @@ div.box {
     padding-top: 0;
     bottom: 20px;
   }
+}
+
+.specific-jacket-container,
+.flex-specific {
+  flex-direction: column;
 }

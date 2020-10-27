@@ -92,6 +92,7 @@ nav li {
 }
 
 .mainnav,
+.mainnav-886,
 .nav-search-cart,
 nav a {
   color: #0a3641;
@@ -99,7 +100,7 @@ nav a {
   text-transform: uppercase;
   font-family: "din-condensed", sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-style: normal;
   list-style-type: none;
   padding: 0 10px;
@@ -107,8 +108,12 @@ nav a {
 }
 
 .nav-search-cart i {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #0a3641;
+}
+
+.mainnav-885 {
+  display: none;
 }
 
 ul.menu a:hover,
@@ -141,16 +146,26 @@ body {
   padding: 15px 5px;
   color: #545b65;
   text-transform: uppercase;
+  text-decoration: none;
   display: inline;
 }
 
-a .breadcrumbs-current {
+a.breadcrumbs-current {
   font-weight: 500;
+}
+
+hr.underline {
+  border-top: 2.5px solid #0a3641;
+  border-radius: 5px;
+  max-width: 550px;
+  position: relative;
+  bottom: 20px;
 }
 
 /*Jacket list-------------------------
 -----------------------------------------------------------------*/
-.falljackets {
+
+.jacketheading {
   text-align: center;
   font-weight: 500;
   font-size: 50px;
@@ -292,6 +307,17 @@ li {
     color: #de784d;
     font-weight: 300;
     font-size: 1.5rem;
+  }
+
+  .mainnav-886 {
+    display: none;
+  }
+  .mainnav-885 {
+    display: inline;
+  }
+
+  .jacketheading {
+    font-size: 2rem;
   }
 
   /*FOOTER*/
