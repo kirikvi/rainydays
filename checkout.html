@@ -27,34 +27,91 @@
     <!--Header---------------------------------------------------->
     <header>
       <a href="index.html"><img src="Images/logo.jpg.png" alt="logo for rainydays" class="logo"/></a>
-      <nav class="nav-container">
-
-    <main>
-     <fieldset>
-        <legend>Payment Details</legend>
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" class="form__input">
-          <label for="surname">Surname</label>
-          <input type="text" name="surname" id="surname" class="form__input">
-          <label for="address">Address</label>
-          <input type="text" name="address" id="address" class="form__input">
-          <label for="postalcode">Postal Code</label>
-          <input type="tel" name="postalcode" id="postalcode" class="form__input">
-          <label for="city">City</label>
-          <input type="text" name="city" id="city" class="form__input">
-          <label for="email">E-Mail</label>
-          <input type="email" name="email" id="email" class="form__input">
-
-          <p>Payment Options</p>
-          <input type="radio" id="creditcard" name="payment" value="creditcard">
-          <label for="creditcard">Credit Card</label>
-          <input type="radio" id="vipps" name="payment" value="vipps">
-          <label for="vipps">Vipps</label></input>
-          <input type="radio" id="invoice" name="payment" value="invoice">
-          <label for="invoice">Invoice</label></input>
-        </fieldset>
-          <input type="submit" value="Confirm Checkout">
-    </main>
+     </header>   
+<!----MAIN
+  ----------------------------------------->
+  <main>
+    <h1 class="h1-checkout">Checkout</h1>
+    <div class="checkout-container">    
+      <div class="checkout-item"> 
+        <div class="popup-content1">
+          <img src="Images/orange.jpg.jpg" alt="An image of an orange jacket" class="specific-img-pop"/>
+        </div>
+        <div class="popup-content2">
+          <h3>Jacket Name</h3>
+            <div class="line">
+                <p class="p-bold">colour</p>
+                <p class="p-description">Orange/Blue</p>
+            </div>
+            <div class="line">
+                <p class="p-bold">size</p>
+                <p class="p-description">X</p>
+            </div>
+        </div>  
+        <div class="popup-content3">
+          <hr class="hr-pop"></hr>
+          <p class="p-bold">TOTAL NOK 1799</p>
+          <hr class="hr-pop"></hr>
+          <a href="jacket_page.html"><input type="submit" value="Continue Shopping" class="continue_shopping"></a>
+          <a href="checkout.html"><input type="submit" value="Checkout" class="addtocart"></a>
+        </div>
+        
+        <!-- 
+        <div>
+            <img src="Images/orange.jpg.jpg" alt="An image of an orange jacket" class="specific-img-pop"/>
+          </div>
+          <div>
+            <h3>Jacket Name</h3>
+              <div>
+                  <p class="p-bold">colour</p>
+                  <p class="p-description">Orange/Blue</p>
+              </div>
+              <div>
+                  <p class="p-bold">size</p>
+                  <p class="p-description">X</p>
+              </div>
+          </div>  
+          <div>
+            <hr></hr>
+            <p class="p-bold">TOTAL NOK 1799</p>
+            <hr></hr>
+            <a href="jacket_page.html"><input type="submit" value="Continue Shopping" class="continue_shopping"></a>
+            <a href="checkout.html"><input type="submit" value="Checkout" class="addtocart"></a>
+          </div> -->
+        
+        
+      </div>
+        <div class="checkout-item">
+          <div class="checkout-form">
+            <h3 class="payment">Payment Details</h3>
+            <fieldset class="checkout-details"> 
+              <legend>Payment Details</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form__input">
+                <label for="surname">Surname</label>
+                <input type="text" name="surname" id="surname" class="form__input">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" class="form__input">
+                <label for="postalcode">Postal Code</label>
+                <input type="tel" name="postalcode" id="postalcode" class="form__input">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" class="form__input">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email" class="form__input">
+  
+                <h3 class="payment">Payment Options</h3>
+                <input type="radio" id="creditcard" name="payment" value="creditcard">
+                <label for="creditcard">Credit Card</label>
+                <input type="radio" id="vipps" name="payment" value="vipps">
+                <label for="vipps">Vipps</label></input>
+                <input type="radio" id="invoice" name="payment" value="invoice">
+                <label for="invoice">Invoice</label></input>
+              </fieldset>
+            <input type="submit" value="Confirm Checkout">
+          </div>
+    </div>
+  </div>
+      </main>
 
     
    <!--Footer-->
