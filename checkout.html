@@ -27,11 +27,13 @@
     <!--Header---------------------------------------------------->
     <header>
       <a href="index.html"><img src="Images/logo.jpg.png" alt="logo for rainydays" class="logo"/></a>
-     </header>   
+      <h1 class="h1-checkout-top">Checkout</h1> 
+    </header>   
 <!----MAIN
   ----------------------------------------->
   <main>
     <h1 class="h1-checkout">Checkout</h1>
+    <hr></hr>
     <div class="checkout-container">    
       <div class="checkout-item"> 
         <div class="popup-content1">
@@ -85,7 +87,6 @@
           <div class="checkout-form">
             <h3 class="payment">Payment Details</h3>
             <fieldset class="checkout-details"> 
-              <legend>Payment Details</legend>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" class="form__input">
                 <label for="surname">Surname</label>
@@ -96,8 +97,8 @@
                 <input type="tel" name="postalcode" id="postalcode" class="form__input">
                 <label for="city">City</label>
                 <input type="text" name="city" id="city" class="form__input">
-                <label for="email">E-Mail</label>
-                <input type="email" name="email" id="email" class="form__input">
+                <label for="check-email">E-Mail</label>
+                <input type="email" name="email" id="check-email" class="form__input">
   
                 <h3 class="payment">Payment Options</h3>
                 <input type="radio" id="creditcard" name="payment" value="creditcard">
@@ -107,7 +108,7 @@
                 <input type="radio" id="invoice" name="payment" value="invoice">
                 <label for="invoice">Invoice</label></input>
               </fieldset>
-            <input type="submit" value="Confirm Checkout">
+            <a href="order_confirmation.html"><input type="submit" value="Confirm Checkout" class="addtocart"></a>
           </div>
     </div>
   </div>

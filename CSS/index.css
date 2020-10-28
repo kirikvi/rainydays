@@ -329,6 +329,16 @@ li.specs {
 .checkout-container {
   display: flex;
   flex-direction: row;
+  margin-top: 20px;
+}
+
+.h1-checkout {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.h1-checkout-top {
+  display: none;
 }
 
 .checkout-item {
@@ -341,10 +351,6 @@ li.specs {
 
 .payment {
   font-size: 2rem;
-}
-
-.h1-checkout {
-  font-size: 3.5rem;
 }
 
 .h1-checkout,
@@ -365,11 +371,13 @@ li.specs {
   text-transform: uppercase;
   font-weight: 800;
   text-align: left;
+  margin: auto;
 }
 
 .checkout-details input {
   background-color: #f5f5f5;
   border-radius: 20px;
+  display: block;
 }
 
 @media screen and (max-width: 886px) {
@@ -412,5 +420,17 @@ li.specs {
   input.continue_shopping {
     font-size: 0.7rem;
     text-decoration: none;
+  }
+
+  .h1-checkout-top {
+    display: block;
+    font-family: "din-condensed", sans-serif;
+    text-transform: uppercase;
+    color: #0a3641;
+    font-size: 3rem;
+  }
+
+  .h1-checkout {
+    display: none;
   }
 }
