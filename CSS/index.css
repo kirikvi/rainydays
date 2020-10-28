@@ -380,6 +380,31 @@ li.specs {
   display: block;
 }
 
+/*ORDER CONFIRMATION PAGE--------------
+-------------*/
+.confirmation-box {
+  background-color: #fff;
+  max-width: 650px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.confirmation-box h1 {
+  text-transform: uppercase;
+  font-family: "din-condensed", impact, sans-serif;
+  color: #0a3641;
+  font-size: 3rem;
+}
+
+.confirmation-box h2 {
+  font-family: "allura", cursive;
+  color: #de784d;
+  font-weight: 500;
+  font-size: 5rem;
+  margin: 10px;
+}
+
 @media screen and (max-width: 886px) {
   .h1motto {
     font-size: 3rem;
