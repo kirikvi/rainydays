@@ -356,8 +356,8 @@ li {
   }
 
   legend,
-  input[type="submit"],
-  input[type="email"] {
+  .newsletter,
+  #email {
     font-size: 1.2rem;
     position: static;
     top: 0;
