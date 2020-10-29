@@ -207,7 +207,9 @@ li.specs {
 }
 
 .size,
-.p-bold {
+.p-bold,
+.p-bold-price,
+p.p-bold-total {
   font-family: inherit;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -224,17 +226,14 @@ li.specs {
   text-transform: uppercase;
 }
 
-.continue_shopping {
-  background-color: #f5f5f5;
-  color: #0a3641;
-}
-
-.addtocart {
+.addtocart,
+.addtocart-a {
   background-color: #de784d;
   color: #f5f5f5;
 }
 
 .addtocart,
+.addtocart-a,
 .continue_shopping {
   padding: 5px 10px;
   border: none;
@@ -250,24 +249,54 @@ li.specs {
 }
 
 .addtocart:hover,
+.addtocart-a:hover,
 .continue_shopping:hover {
   font-weight: 800;
 }
 
+.continue_shopping {
+  background-color: #f5f5f5;
+  color: #0a3641;
+}
+
+.addtocart-a,
+.continue_shopping {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.popup-content3 .addtocart-a,
+.popup-content3 .continue_shopping {
+  width: 120px;
+  height: 35px;
+}
+
+/*ADDED TO CART*/
+#addtocart,
+.cart {
+  display: none;
+}
+
+#addtocart:checked ~ .cart {
+  display: block;
+}
+
 .specific-img-pop {
-  max-height: 150px;
-  max-width: 150px;
-  margin: 20px;
+  max-height: 100px;
+  max-width: 100px;
+  margin: 15px;
 }
 
 .addedtocart_popup {
   display: grid;
   background-color: #fff;
   position: absolute;
-  left: 69%;
-  top: 140px;
-  max-width: 400px;
-  max-height: 100%;
+  right: 0;
+  top: 160px;
+  width: 300px;
+  height: 450px;
   z-index: 1;
   padding: 5px;
   border: 3px solid #0a3641;
@@ -283,7 +312,7 @@ li.specs {
 }
 
 .popup-heading p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #0a3641;
@@ -291,7 +320,7 @@ li.specs {
 
 .line p {
   display: inline;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .line {
@@ -302,7 +331,7 @@ li.specs {
   text-transform: uppercase;
   color: #de784d;
   font-family: "din-condensed", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -323,6 +352,15 @@ li.specs {
 
 .popup-content3 {
   grid-area: bottom;
+}
+
+.p-bold-total {
+  margin-left: 20px;
+  display: inline-block;
+}
+.p-bold-price {
+  margin-left: 50px;
+  display: inline-block;
 }
 
 /*CHECKOUT PAGE------------
@@ -514,4 +552,16 @@ section.jacket-categories a:hover {
   .h1-checkout {
     display: none;
   }
+
+
+.addedtocart_popup {
+  display: grid;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 500px;
+  width: 360px;
+  height: 450px;
+  z-index: 1;
+
 }
