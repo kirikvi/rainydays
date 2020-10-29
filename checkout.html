@@ -32,87 +32,65 @@
 <!----MAIN
   ----------------------------------------->
   <main>
-    <h1 class="h1-checkout">shopping cart</h1>
-    <hr></hr>
-    <div class="checkout-container">    
-      <div class="checkout-item"> 
-        <div class="popup-content1">
-          <img src="Images/orange.jpg.jpg" alt="An image of an orange jacket" class="specific-img-pop"/>
-        </div>
-        <div class="popup-content2">
-          <h3>Jacket Name</h3>
-            <div class="line">
-                <p class="p-bold">colour</p>
-                <p class="p-description">Orange/Blue</p>
-            </div>
-            <div class="line">
-                <p class="p-bold">size</p>
-                <p class="p-description">X</p>
-            </div>
-        </div>  
-        <div class="popup-content3">
-          <hr class="hr-pop"></hr>
-          <p class="p-bold">TOTAL NOK 1799</p>
-          <hr class="hr-pop"></hr>
-          <a href="jacket_page.html"><input type="submit" value="Continue Shopping" class="continue_shopping"></a>
-          <a href="checkout.html"><input type="submit" value="Checkout" class="addtocart"></a>
-        </div>
+    <section class="checkout-container">
+      <div class="checkout-item">
         
-        <!-- 
-        <div>
-            <img src="Images/orange.jpg.jpg" alt="An image of an orange jacket" class="specific-img-pop"/>
+        <div class="cart-grid">
+          <div class="cart-top">
+            <h1 class="h1-checkout">Shopping Cart</h1> 
+            <hr></hr>
           </div>
-          <div>
-            <h3>Jacket Name</h3>
-              <div>
-                  <p class="p-bold">colour</p>
-                  <p class="p-description">Orange/Blue</p>
-              </div>
-              <div>
-                  <p class="p-bold">size</p>
-                  <p class="p-description">X</p>
-              </div>
-          </div>  
-          <div>
+          
+          <div class="cart-img">
+            <img src="Images/orange.jpg.jpg" alt="An image of an orange jacket" class="img-check"/>
+          </div>
+
+          <div class="cart-text">
+            <h3 class="cart-heading">Jacket Name</h3>
+            <p class="p-description-check">Colour <strong> Orange/Blue</strong></p>
+            <p class="p-description-check">size <strong> x</strong></p>
+          </div>
+
+          <div class="cart-total">
             <hr></hr>
             <p class="p-bold">TOTAL NOK 1799</p>
             <hr></hr>
-            <a href="jacket_page.html"><input type="submit" value="Continue Shopping" class="continue_shopping"></a>
-            <a href="checkout.html"><input type="submit" value="Checkout" class="addtocart"></a>
-          </div> -->
-        
-        
-      </div>
-        <div class="checkout-item">
-          <div class="checkout-form">
-            <h3 class="payment">Payment Details</h3>
-            <fieldset class="checkout-details"> 
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" class="form__input">
-                <label for="surname">Surname</label>
-                <input type="text" name="surname" id="surname" class="form__input">
-                <label for="address">Address</label>
-                <input type="text" name="address" id="address" class="form__input">
-                <label for="postalcode">Postal Code</label>
-                <input type="tel" name="postalcode" id="postalcode" class="form__input">
-                <label for="city">City</label>
-                <input type="text" name="city" id="city" class="form__input">
-                <label for="check-email">E-Mail</label>
-                <input type="email" name="email" id="check-email" class="form__input">
-  
-                <h3 class="payment">Payment Options</h3>
-                <input type="radio" id="creditcard" name="payment" value="creditcard">
-                <label for="creditcard">Credit Card</label>
-                <input type="radio" id="vipps" name="payment" value="vipps">
-                <label for="vipps">Vipps</label></input>
-                <input type="radio" id="invoice" name="payment" value="invoice">
-                <label for="invoice">Invoice</label></input>
-              </fieldset>
-            <a href="order_confirmation.html"><input type="submit" value="Confirm Checkout" class="addtocart"></a>
+            <a href="jacket_page.html" class="c-shopping">Continue Shopping</a>
           </div>
-    </div>
-  </div>
-      </main>
+        </div>
+
+      </div>
+
+      <div class="checkout-item">
+        <div class="checkout-form">
+          <h3 class="payment">Payment Details</h3>
+          <fieldset class="checkout-details"> 
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form__input">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" class="form__input">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" class="form__input">
+            <label for="postalcode">Postal Code</label>
+            <input type="tel" name="postalcode" id="postalcode" class="form__input">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" class="form__input">
+            <label for="check-email">E-Mail</label>
+            <input type="email" name="email" id="check-email" class="form__input">
+
+            <h3 class="payment">Payment Options</h3>
+            <input type="radio" id="creditcard" name="payment" value="creditcard">
+            <label for="creditcard">Credit Card</label>
+            <input type="radio" id="vipps" name="payment" value="vipps">
+            <label for="vipps">Vipps</label></input>
+            <input type="radio" id="invoice" name="payment" value="invoice">
+            <label for="invoice">Invoice</label></input>
+          </fieldset>
+          <a href="order_confirmation.html"><input type="submit" value="Confirm Checkout" class="addtocart"></a>
+        </div>
+      </div>
+    </section>  
+   </main>
 
     
    <!--Footer-->
