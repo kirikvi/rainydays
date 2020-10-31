@@ -135,24 +135,85 @@ section.jacket-categories {
 
 /*ABOUT--------------------------
 -----------------------------*/
-main.information_background {
+.information_background {
   background-image: url("../Images/hike.jpg.jpg");
-  min-height: 300px;
+  min-height: 400px;
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
   opacity: 80%;
+  z-index: -1;
 }
 
-div.box {
+.box {
   background-color: #fff;
-  height: 600px;
   max-width: 900px;
   margin: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  opacity: 80%;
+  padding: 30px 80px;
+}
+
+.box h1 {
+  font-size: 3rem;
+  color: #0a3641;
+  text-align: center;
+}
+
+.h2-about {
+  font-size: 2rem;
+  color: #0a3641;
+}
+
+.about-li a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #0a3641;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*CONTACT---------------------
+----------------------------------*/
+.contact-container {
+  display: flex;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 45px;
+  min-height: 400px;
+  min-width: 300px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  line-height: 35px;
+  border-radius: 5px;
+  border: 2px solid #0a3641;
+}
+
+.message-form p {
+  color: #f5f5f5;
+  background-color: #0a3641;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.message-form p:hover {
+  font-weight: 700;
+}
+
+iframe {
+  max-width: 150px;
+  max-height: 150px;
+  margin: auto;
 }
 
 /*JACKET SPECIFIC PAGE--------------------------
@@ -165,6 +226,7 @@ div.box {
 
 .specific-img {
   min-width: 250px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .specific-jacket-item,
@@ -648,5 +710,21 @@ section.jacket-categories a:hover {
 
   .confirmation-box h2 {
     font-size: 3.5rem;
+  }
+
+  section.jacket-categories a {
+    margin: 0 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .message-form {
+    padding: 15px 25px;
+    max-height: 200px;
+    max-width: 150px;
+    line-height: 35px;
+    margin: auto;
   }
 }
