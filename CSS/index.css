@@ -739,8 +739,10 @@ section.jacket-categories a:hover {
   }
   .addedtocart_popup {
     left: 5px;
-    top: 270px;
     margin: auto;
+    top: 720px;
+    width: 360px;
+    height: 450px;
   }
 
   input.addtocart,
@@ -761,11 +763,6 @@ section.jacket-categories a:hover {
     display: none;
   }
 
-  .addedtocart_popup {
-    top: 500px;
-    width: 360px;
-    height: 450px;
-  }
   .checkout-container {
     display: flex;
     flex-direction: column;
