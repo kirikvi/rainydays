@@ -184,7 +184,19 @@ section.jacket-categories {
   text-align: center;
 }
 
-.h2-about {
+.rafting {
+  max-width: 200px;
+  float: right;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.h3-about {
+  clear: both;
+}
+
+.h2-about,
+.h3-about {
   font-size: 2rem;
   color: #0a3641;
 }
