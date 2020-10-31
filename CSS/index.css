@@ -1,12 +1,12 @@
 /*INDEX------------------------------------------------------
 ------------------------------------------------------*/
 section.motto {
-  background-image: url("../Images/michiel-annaert-_MqhA06t3L0-unsplash.jpg");
+  background-image: url("../Images/header.jpg");
   min-height: 400px;
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 60% 47%;
+  background-position: bottom right;
   padding-bottom: 100px;
   padding-top: 100px;
 }
@@ -133,41 +133,17 @@ section.jacket-categories {
   bottom: 90px;
 }
 
-/*MEN/WOMEN/SALE---------------------
---------------------*/
-
-.mns-bck {
-  background-image: url("../Images/kal-visuals-vrUHlmda46M-unsplash.jpg");
-  background-position: center;
-}
-
-.wmns-bck {
-  background-image: url("../Images/norbert-toth-Q4YQ2Gi1t4c-unsplash.jpg");
-  background-position: center;
-}
-
-.sale-bck {
-  background-image: url("../Images/wu-jianxiong-UniC8xhlzaE-unsplash.jpg");
-  background-position: center;
-}
-
 /*ABOUT--------------------------
 -----------------------------*/
 .information_background {
   background-image: url("../Images/hike.jpg.jpg");
+  min-height: 400px;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom right;
   opacity: 80%;
   z-index: -1;
-}
-
-.information_background,
-.mns-bck,
-.wmns-bck,
-.sale-bck {
-  min-height: 400px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .box {
