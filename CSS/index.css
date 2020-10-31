@@ -513,6 +513,10 @@ p.p-bold-total {
   margin: 10px;
 }
 
+.confirmation-box a {
+  margin: 20px auto;
+}
+
 .close-btn {
   background-color: #fff;
   border: 1px solid #0a3641;
@@ -570,7 +574,17 @@ section.jacket-categories a:hover {
 
 @media screen and (max-width: 886px) {
   .h1motto {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+
+  .h2motto {
+    font-size: 2rem;
+  }
+
+  section.motto {
+    background-position: 80% 50%;
+    min-height: 300px;
   }
 
   .p-adventure {
@@ -626,5 +640,13 @@ section.jacket-categories a:hover {
   .checkout-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .confirmation-box h1 {
+    font-size: 2.8rem;
+  }
+
+  .confirmation-box h2 {
+    font-size: 3.5rem;
   }
 }
