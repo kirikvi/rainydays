@@ -454,20 +454,25 @@ section.motto,
 .wmn-bck,
 .mn-bck,
 .sale-bck {
-  min-height: 400px;
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.wmn-bck,
+.mn-bck,
+.sale-bck {
+  min-height: 200px;
+}
+
 .wmn-bck {
   background-image: url("../Images/mountain.jpg");
-  background-position: bottom right;
+  background-position: 50% 75%;
 }
 
 .mn-bck {
   background-image: url("../Images/kal-visuals-vrUHlmda46M-unsplash.jpg");
-  background-position: center;
+  background-position: 30% 43%;
 }
 
 .sale-bck {
@@ -1299,5 +1304,6 @@ section.jacket-categories a:hover {
 
   .wmn-bck {
     background-image: url("../Images/lucas-favre-GzcI_rMNclY-unsplash.jpg");
+    background-position: 0% 85%;
   }
 }
