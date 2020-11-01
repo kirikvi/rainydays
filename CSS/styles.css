@@ -1033,31 +1033,26 @@ p.p-bold-total {
 /*ALL JACKETS PAGE---------
 -------------------*/
 section.jacket-categories {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 50px;
+  margin: auto;
+  text-align: center;
 }
 
 section.jacket-categories a {
+  font-family: "din-condensed", sans-serif;
   background-color: #f5f5f5;
-  opacity: 80%;
   text-decoration: none;
-  font-weight: 600;
   font-size: 1.5rem;
   color: #de784d;
-  width: 100px;
-  height: 35px;
+  padding: 5px 20px;
+  margin: 20px;
   text-align: center;
-  margin: 0 50px;
-  align-content: center;
   position: relative;
-  top: 200px;
+  top: 250px;
+  border-radius: 10px;
 }
 
 section.jacket-categories a:hover {
-  border: 3px solid #de784d;
-  transition: 0.5s;
+  border: 1px solid #de784d;
 }
 
 @media screen and (max-width: 885px) {
