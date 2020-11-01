@@ -609,6 +609,7 @@ section.jacket-categories {
 
 .message-form p:hover {
   font-weight: 700;
+  cursor: pointer;
 }
 
 iframe {
@@ -1114,13 +1115,6 @@ section.jacket-categories a:hover {
     margin: auto;
   }
 
-  .jacket-item {
-    min-height: 400px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-
   footer a {
     margin-top: 10px;
     font-size: 2rem;
@@ -1147,7 +1141,7 @@ section.jacket-categories a:hover {
   }
 
   #email {
-    width: 180px;
+    width: 200px;
   }
 
   .instagram-icon,
@@ -1183,10 +1177,13 @@ section.jacket-categories a:hover {
     flex-direction: column;
     margin: auto;
   }
+
   .jacket-item {
     flex: 1 1 auto;
-    padding: 20px;
     min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   }
 
   .jacket-item a {
@@ -1213,11 +1210,6 @@ section.jacket-categories a:hover {
 
   .h2motto {
     font-size: 2rem;
-  }
-
-  section.motto {
-    background-position: 80% 50%;
-    min-height: 300px;
   }
 
   .p-adventure {
@@ -1306,7 +1298,8 @@ section.jacket-categories a:hover {
 
   section.motto {
     background-image: url("../Images/header.jpg");
-    background-position: 100% 100%;
+    background-position: 80% 60%;
+    max-height: 300px;
   }
 
   .wmn-bck {
