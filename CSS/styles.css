@@ -1285,11 +1285,19 @@ section.jacket-categories a:hover {
   }
 
   .message-form {
-    padding: 15px 25px;
+    padding: 15px 20px;
     max-height: 200px;
-    max-width: 150px;
+    max-width: 130px;
     line-height: 35px;
     margin: auto;
+  }
+
+  .message-form p {
+    width: 80px;
+  }
+
+  .box {
+    padding: 20px;
   }
 
   section.motto {
