@@ -178,7 +178,8 @@ body {
   flex-wrap: nowrap;
 }
 
-.breadcrumbs {
+.breadcrumbs,
+.breadcrumbs-current {
   position: relative;
   top: 15px;
   bottom: 15px;
@@ -189,6 +190,10 @@ body {
   text-decoration: none;
   display: inline;
   font-size: 10px;
+}
+
+a.breadcrumbs-current {
+  font-weight: 1000;
 }
 
 hr.underline {
