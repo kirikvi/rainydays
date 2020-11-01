@@ -323,7 +323,7 @@ legend {
 }
 #email {
   padding: 5px 10px;
-  margin: 0px 0;
+  margin: 0px;
   position: relative;
   top: 55px;
 }
@@ -1144,6 +1144,10 @@ section.jacket-categories a:hover {
     position: static;
     top: 0;
     margin: auto;
+  }
+
+  #email {
+    width: 180px;
   }
 
   .instagram-icon,
