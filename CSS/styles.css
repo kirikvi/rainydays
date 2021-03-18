@@ -47,6 +47,10 @@ main {
 
 /*Header and navigation--------------------------*/
 
+.mainnav-subtle {
+  color: #6d7075;
+}
+
 .topnav {
   display: flex;
   padding: 0px;
@@ -183,7 +187,7 @@ i:hover {
   transition: 0.9s;
 }
 
-#current {
+.current {
   font-weight: 700;
   font-size: 1.7rem;
   color: #de784d;
@@ -568,13 +572,13 @@ time {
 }
 
 .wmn-bck {
-  background-image: url("../Images/mountain.jpg");
-  background-position: 50% 75%;
+  background-image: url("../Images/patrik-kovar-Eu0jFZsZifI-unsplash.jpg");
+  background-position: 50% 45%;
 }
 
 .mn-bck {
-  background-image: url("../Images/kal-visuals-vrUHlmda46M-unsplash.jpg");
-  background-position: 30% 43%;
+  background-image: url("../Images/kal-visuals-fFK-1FjT_2U-unsplash.jpg");
+  background-position: 40% 55%;
 }
 
 .sale-bck {
@@ -1243,7 +1247,8 @@ section.jacket-categories a:hover {
   nav a {
     color: #de784d;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0 5px;
   }
 
   .btn {
@@ -1446,11 +1451,6 @@ section.jacket-categories a:hover {
 
   .box {
     padding: 20px;
-  }
-
-  .wmn-bck {
-    background-image: url("../Images/lucas-favre-GzcI_rMNclY-unsplash.jpg");
-    background-position: 0% 85%;
   }
 }
 
