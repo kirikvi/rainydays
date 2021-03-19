@@ -1399,6 +1399,8 @@ section.jacket-categories a:hover {
     font-size: 4rem;
   }
 
+/*OTHER STYLES*/  
+
   .jacket-container,
   .jacket-container-sale,
   .jacket-container-men,
@@ -1529,19 +1531,18 @@ section.jacket-categories a:hover {
 
   
   .jacket-container div {
-    max-height: 190px;
-    max-width: 130px;
+    max-height: 200px;
+    max-width: 150px;
     padding: 20px; 
   }
 
   .jacket-container div img {
-    max-height: 170px;
+    max-height: 200px;
     margin:auto
-   
   }
 
   .jacket-container div a {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
 
   .jacket-container div h3 {
@@ -1549,7 +1550,7 @@ section.jacket-categories a:hover {
   }
 
   .jacket-container div p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin: 0; 
   }
 }
