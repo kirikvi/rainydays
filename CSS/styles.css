@@ -534,7 +534,7 @@ time {
 .jacket-item:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transform: scale(1.05);
-  transition-duration: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .jacket-item img:hover {
@@ -968,8 +968,11 @@ p.p-bold-total {
 
 /*CHECKOUT PAGE------------
 ------------------------------------------*/
+.shopping-header {
+  top: 10px;
+}
 .c-shopping,
-.cnfrm {
+.pay-btn {
   font-size: 1rem;
   display: inline-block;
   border-radius: 25px;
@@ -991,19 +994,7 @@ p.p-bold-total {
   color: #0a3641;
   font-weight: 600;
   background-color: #fff;
-}
-
-.cnfrm {
-  display: block;
-  color: #f5f5f5;
-  background-color: #de784d;
-  font-weight: 400;
-  margin: 20px;
-}
-
-.cnfrm:hover {
-  font-weight: 700;
-  color: #f5f5f5;
+  cursor: pointer;
 }
 
 .checkout-container {
@@ -1011,6 +1002,7 @@ p.p-bold-total {
   flex-direction: row;
   margin: 20px;
   padding: 10px;
+  color: #0a3641;
 }
 
 .h1-checkout-top {
@@ -1075,6 +1067,42 @@ p.p-bold-total {
 .col-half {
   width: 50%;
   float: left;
+}
+
+.payment-opt input {
+  display:none;
+}
+
+.select:checked + .lbl {
+  background-color: #545b65;
+  color:#f5f5f5;
+}
+
+.select:hover + .lbl {
+  background-color: #cfcfcf;
+  cursor: pointer;
+}
+
+.lbl {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.pay-btn {
+  border: none;
+  margin: auto;
+  padding: 10px 40px;
+  display: block;
+  color: #f5f5f5;
+  background-color: #de784d;
+}
+  
+.pay-btn:hover {
+  color: #0a3641;
 }
 
 .img-check {
@@ -1221,8 +1249,12 @@ section.jacket-categories a:hover {
     top: 170px;
   } 
 
+  .main-checkout {
+    top: 90px;
+  }
+
   .shopping-header {
-    height: 90px;
+    height: 100px;
   }
     
   .review-item,

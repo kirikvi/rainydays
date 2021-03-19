@@ -42,7 +42,7 @@
 
 <!----MAIN
   ----------------------------------------->
-  <main>
+  <main class="main-checkout">
     <!--CONTAINER-->
       <section class="checkout-container">
 
@@ -84,11 +84,11 @@
             <h3 class="payment">Payment Details</h3>
             <div class="col-half">
               <label for="name">Name</label>
-              <input type="text" id="name" placeholder="Firstname">
+              <input type="text" name="name" id="name" placeholder="Firstname">
             </div>  
             <div class="col-half"> 
               <label for="surname">Surname</label>
-              <input type="text" id="surname" placeholder="Surname">
+              <input type="text" name="surname" id="surname" placeholder="Surname">
             </div>  
             <div class="form-control"> 
               <label for="address">Address</label>
@@ -96,29 +96,26 @@
             </div>   
             <div class="col-half">
               <label for="postalcode">Postal Code</label>
-              <input type="tel" id="postalcode" placeholder="0694">
+              <input type="tel" name="postalcode" id="postalcode" placeholder="0694">
             </div>   
             <div class="col-half">  
               <label for="city">City</label>
-              <input type="text" id="city" placeholder="City">
+              <input type="text" name="city" id="city" placeholder="City">
             </div>   
             <div class="form-control">
               <label for="check-email">E-Mail</label>
-              <input type="email"  id="check-email" placeholder="email@rainydays.com">
+              <input type="email" name="email" id="check-email" placeholder="email@rainydays.com">
             </div> 
             <h3>Payment Options</h3>
             <div class="payment-opt">
-              <ul>
-                <li><input type="radio" id="creditcard" name="payment" value="creditcard">Credit Card</li>
-                <input type="radio" id="vipps" name="payment" value="vipps">
-                <label for="vipps">Vipps</label>
-                <input type="radio" id="invoice" name="payment" value="invoice">
-                <label for="invoice">Invoice</label>
-              <ul>
+              <input type="radio" class="select" id="creditcard" name="payment" value="creditcard" checked>
+              <label for="creditcard" class="lbl">VISA/Mastercard</label>
+              <input type="radio" class="select" id="vipps" name="payment" value="vipps">
+              <label for="vipps" class="lbl">Vipps</label>
+              <input type="radio" class="select" id="invoice" name="payment" value="invoice">
+              <label for="invoice" class="lbl">Invoice</label>
             </div>  
-             <button type="submit">Confirm Checkout</button>
-              <p>Save my information for later</p>
-      
+            <button type="submit" class="pay-btn">Confirm Checkout</button>      
           </form>
       </div>
       </div>
