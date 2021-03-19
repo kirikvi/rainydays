@@ -64,6 +64,19 @@
         <div class="box">
           <h1>Contact us</h1>
           <div class="contact-container">
+             <!--CONTACT FORM-->
+             <form class="message-form" action="/" method="GET">
+              <h2>Message us</h2>
+              <div>
+                <input type="text" name="name" id="name" placeholder="Name or nickname">
+                <input type="email" name="email" id="e-mail" placeholder="Your email address*">
+              </div>
+              <textarea name="message" type="text" id="message" placeholder="Write your message here*"></textarea>
+              <button type="submit">Submit</button>
+              <p id="email-error">*Please enter a valid e-mail address</p>
+              <p id="message-error">*Please write your message</p>
+              <p class="confirmation">Message sent</p>
+            </form>     
             <section class="contact-info">
               <h2>How to reach us</h2>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.148529838843!2d10.73909065127918!3d59.91308228177788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7d5226496b%3A0x308a314c2d286af9!2sKarl%20Johans%20gate%2C%20Oslo!5e0!3m2!1sno!2sno!4v1604162894701!5m2!1sno!2sno" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -75,33 +88,11 @@
                 <li class="about-li"><a href="information_page.html"><i class="fab fa-facebook-square"></i>Facebook</a></li>
                 <li class="about-li"><a href="information_page.html"><i class="fab fa-twitter-square"></i>Twitter</a></li>
               </ul>
-            </section>
-
-            <form class="message-form">
-              <h2>Message us</h2>
-              <p class="confirmation">Message sent</p>
-              <label for="name">Name</label>
-              <p id="name-error">Required</p>
-              <input name="text" id="name" placeholder="Your Name">
-              
-              <label for="email">E-mail</label>
-              <p id="email-error">Must be a valid e-mail address</p>
-              <input name="email" id="e-mail" placeholder="Your email address">
-              
-              <label for="message">Your Message</label>
-              <textarea rows="4" cols="50" name="message" form="message-form" id="message" placeholder="Write your message here"></textarea>
-              <p class="char-counter"></p>
-              <p class="char-limit">/500</p>
-              <p id="message-error">Character limit reached</p>
-              
-              <button>Submit</button>
-              
-            </form>
+            </section> 
           </div>
         </div>
       </section>
     </main>
-
  <!--Footer-->
     <footer>
       <div class="flex-container">

@@ -47,10 +47,6 @@ main {
 
 /*Header and navigation--------------------------*/
 
-.mainnav-subtle {
-  color: #6d7075;
-}
-
 .topnav {
   display: flex;
   padding: 0px;
@@ -199,7 +195,6 @@ body {
   background-color: #f5f5f5;
   max-width: 100%;
   overflow-x: hidden;
-  flex-wrap: nowrap;
 }
 
 .breadcrumbs,
@@ -647,6 +642,10 @@ time {
   font-size: 3rem;
   color: #0a3641;
   text-align: center;
+  margin: 0 auto 10px;
+  text-transform: uppercase;
+  font-family: "din-condensed", sans-serif;
+  font-weight: 500;
 }
 
 .rafting {
@@ -681,9 +680,39 @@ time {
 
 /*CONTACT---------------------
 ----------------------------------*/
+.message-form h2 {
+  font-size: 1.5rem;
+}
+
 .contact-container {
   display: flex;
   color: #0a3641;
+}
+
+.contact-container input, textarea {
+  border:0; 
+  outline:0;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "candara", sans-serif;
+  resize: none;
+} 
+
+#input-submit {
+  color: #f5f5f5; 
+  background: #de784d;
+  cursor: pointer;
+}
+
+#input-submit:hover {
+  font-weight: 800;
+}
+
+textarea {
+   height: 126px;
 }
 
 .message-form {
@@ -694,33 +723,8 @@ time {
   min-width: 300px;
   background-color: #f5f5f5;
   margin: 0 auto;
-  line-height: 35px;
   border-radius: 5px;
-  border: 2px solid #0a3641;
   color: #0a3641;
-}
-
-.message-form label {
-  font-weight: 600;
-}
-
-.message-form input {
-  color: #545b65;
-}
-
-button {
-  color: #f5f5f5;
-  background-color: #0a3641;
-  text-align: center;
-  width: 100px;
-  height: 40px;
-  border-radius: 25px;
-  margin: auto;
-}
-
-button:hover {
-  font-weight: 700;
-  cursor: pointer;
 }
 
 #name-error,
@@ -728,6 +732,9 @@ button:hover {
 #email-error {
     color: red;
     display: none;
+    font-size: 0.8rem;
+    margin: 5px;
+    width: 100%;
 }
 
 iframe {
@@ -1037,30 +1044,37 @@ p.p-bold-total {
 }
 
 .checkout-form {
-  margin: 20px;
   background-color: #fff;
   margin: auto;
-  border: 0.5px solid #0a3641;
+  padding: 20px;
+  border: 2px solid #f3e6e6;
   border-radius: 5px;
 }
 
-.checkout-details {
-  font-weight: 800;
-  margin: auto;
-}
-
-.pay-dtl {
+.checkout-form input{
+  border: 2px solid #f5f5f5;
   background-color: #fff;
   border-radius: 5px;
-  border: 1px solid #0a3641;
   height: 35px;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   display: block;
 }
+.checkout-form input:focus {
+  outline: 0;
+  border-color: #545b65;
+}
+.checkout-details {
+  font-weight: 800;
+  padding: 0 40px;
+}
 
-.lbl {
-  margin-left: 10%;
+.form-control {
+  clear: both;
+}
+
+.col-half {
+  width: 50%;
+  float: left;
 }
 
 .img-check {
