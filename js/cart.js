@@ -62,14 +62,14 @@ function controlInputs() {
 
 function setErrorFor(input, message) {
 	const formItem = input.parentElement;
-	const small = formItem.querySelector('small');
-	formItem.className = 'form-item error';
+	const small = formItem.querySelector("small");
+	formItem.className = "form-item error";
 	small.innerText = message;
 }
 
 function setSuccessFor(input) {
 	const formItem = input.parentElement;
-	formItem.className = 'form-item success';
+	formItem.className = "form-item success";
 }
 	
 function isEmail(email) {

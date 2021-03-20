@@ -65,16 +65,14 @@
           <h1>Contact us</h1>
           <div class="contact-container">
              <!--CONTACT FORM-->
-             <form class="message-form" action="/" method="GET">
+             <form class="message-form">
               <h2>Message us</h2>
-              <div>
-                <input type="text" name="name" id="name" placeholder="Name or nickname">
-                <input type="email" name="email" id="e-mail" placeholder="Your email address*">
-              </div>
+              <input type="text" name="name" id="name" placeholder="Name or nickname">
+              <input type="email" name="email" id="e-mail" placeholder="Your email address*">
+               <p id="email-error">*Please enter a valid e-mail address</p>
               <textarea name="message" type="text" id="message" placeholder="Write your message here*"></textarea>
-              <button type="submit">Submit</button>
-              <p id="email-error">*Please enter a valid e-mail address</p>
               <p id="message-error">*Please write your message</p>
+              <button class="message-submit">Submit</button>         
               <p class="confirmation">Message sent</p>
             </form>     
             <section class="contact-info">

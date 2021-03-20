@@ -516,6 +516,7 @@ time {
   height: 230px;
   object-fit: cover;
   margin: 10px;
+  border-radius: 5px;
 }
 
 /*FALL JACKETS*/
@@ -727,11 +728,25 @@ textarea {
   color: #0a3641;
 }
 
+.message-form button {
+  border: none;
+  background-color: #0a3641;
+  color: #f4f4f4;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.message-form button:hover {
+  background-color: #de784d;
+  color: #0a3641;
+}
+
 #name-error,
 #message-error,
 #email-error {
     color: red;
-    display: none;
+    visibility: hidden;
     font-size: 0.8rem;
     margin: 5px;
     width: 100%;

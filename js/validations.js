@@ -4,24 +4,30 @@ const emailError = document.querySelector("#email-error");
 const message = document.querySelector("#message");
 const messageError = document.querySelector("#message-error");
 const confirmation = document.querySelector(".confirmation");
-const button = document.querySelector("button");
+const button = document.querySelector(".message-submit");
+
+form.addEventListener("submit", e => {
+	e.preventDefault();
+	
+	validateForm();
+});
 
 function validateForm(){
-    event.preventDefault();
 
     if(validateEmail(email.value, 0)){
-        emailError.style.display = "none";
+        emailError.style.visibility = "hidden";
     } else {
-        emailError.style.display = "inline";
+        emailError.style.visibility = "visible";
+        emailError.innerText = "Must be a valid e-mail address";
     }
 
-    if(validateLen(message.value, 0)){
-        messageError.style.display = "none";
+    if(validateLen(message.value, 4)){
+        messageError.style.visibility = "hidden";
     } else {
-        messageError.style.display = "inline";
+        messageError.style.visibility = "visible";
+        messageError.innerText = "Your message must contain 5 characters or more";
     }
 }
-form.addEventListener("submit", validateForm);
 
 function validateLen(value, len){
     if (value.trim().length > len){
@@ -37,14 +43,10 @@ function validateEmail(email) {
     return matching;
 }
 
-function validationSuccess(){
-    console.log("test");
-    if(validateLen(message.value, 500) && validateEmail(email.value, 0)){
-        confirmation.style.display = "inline";
-        console.log("success");
+button.onclick = function(){
+    if(validateLen(message.value, 4) && validateEmail(email.value, 0)){
+        alert("Message sent!");
     } else {
-        confirmation.style.display = "none";
-        console.log("no success");
+        console.log("Not yet");
     }
 }
-button.onclick = validationSuccess();
