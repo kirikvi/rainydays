@@ -632,6 +632,8 @@ time {
   z-index: -1;
 }
 
+
+
 .box {
   background-color: #fff;
   max-width: 900px;
@@ -983,7 +985,8 @@ p.p-bold-total {
 
 /*CHECKOUT PAGE------------
 ------------------------------------------*/
-.shopping-header {
+.shopping-header,
+.information-header {
   top: 10px;
 }
 .c-shopping,
