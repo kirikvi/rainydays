@@ -975,7 +975,7 @@ p.p-bold-total {
 .pay-btn {
   font-size: 1rem;
   display: inline-block;
-  border-radius: 25px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -1060,22 +1060,71 @@ p.p-bold-total {
   padding: 0 40px;
 }
 
-.col-half {
-  width: 50%;
-  float: left;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
 }
 
-/*.form-item {
-  clear: both;
-}*/
+.form {
+	padding: 30px 40px;	
+}
 
-small {
+.form-item {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.form-item label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-item input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-item input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-item.success input {
+	border-color: #2abb66;
+}
+
+.form-item.error input {
+	border-color: #e74c3c;
+}
+
+.form-item small {
 	color: #e74c3c;
-  visibility: hidden; 
+	visibility: hidden;
+    display: inline;
+}
+
+.form-item.error small {
+	visibility: visible;
 }
 
 .payment-opt input {
   display:none;
+}
+
+.lbl {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
 }
 
 .select:checked + .lbl {
@@ -1086,15 +1135,6 @@ small {
 .select:hover + .lbl {
   background-color: #cfcfcf;
   cursor: pointer;
-}
-
-.lbl {
-  display: inline-block;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 10px;
-  background-color: #f5f5f5;
-  border-radius: 5px;
 }
 
 .pay-btn {
@@ -1194,6 +1234,10 @@ small {
   text-decoration: none;
   cursor: pointer;
   color: #0a3641;
+}
+
+.orderdetails {
+  text-decoration: underline;
 }
 
 .close-btn:hover {
