@@ -1060,13 +1060,18 @@ p.p-bold-total {
   padding: 0 40px;
 }
 
-.form-control {
-  clear: both;
-}
-
 .col-half {
   width: 50%;
   float: left;
+}
+
+/*.form-item {
+  clear: both;
+}*/
+
+small {
+	color: #e74c3c;
+  visibility: hidden; 
 }
 
 .payment-opt input {

@@ -32,6 +32,7 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
   </head>
   <body>
     <!--Header---------------------------------------------------->
@@ -78,34 +79,40 @@
       <!--LEFT ITEM-->
       <div class="checkout-item">
         
-        <!--ChECKOUT FORM-->
         <div class="checkout-form">
-          <form class="checkout-details"> 
+          <form id="form" class="checkout-details">
             <h3 class="payment">Payment Details</h3>
-            <div class="col-half">
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" placeholder="Firstname">
-            </div>  
-            <div class="col-half"> 
-              <label for="surname">Surname</label>
-              <input type="text" name="surname" id="surname" placeholder="Surname">
-            </div>  
-            <div class="form-control"> 
-              <label for="address">Address</label>
-              <input type="text" name="address" id="address" placeholder="Streetname 11">
-            </div>   
-            <div class="col-half">
-              <label for="postalcode">Postal Code</label>
-              <input type="tel" name="postalcode" id="postalcode" placeholder="0694">
-            </div>   
-            <div class="col-half">  
-              <label for="city">City</label>
-              <input type="text" name="city" id="city" placeholder="City">
-            </div>   
-            <div class="form-control">
-              <label for="check-email">E-Mail</label>
-              <input type="email" name="email" id="check-email" placeholder="email@rainydays.com">
-            </div> 
+            <div class="form-item">
+                <label for="user-name">Name</label>
+                <input type="text" placeholder="Name Namesen" id="user-name" />
+                <small>Error message</small>
+            </div>
+        
+            <div class="form-item">
+                <label for="address">Address</label>
+                <input type="text" placeholder="Street Name 11" id="address" />
+                <small>Error message</small>
+            </div>
+        
+            <div class="form-item">
+                <label for="postalcode">Postal Code</label>
+                <input type="text" placeholder="1234" id="postalcode" />
+                <small>Error message</small>
+            </div>
+
+            <div class="form-item">
+                <label for="city">City</label>
+                <input type="text" placeholder="Oslo" id="city" />
+                <small>Error message</small>
+            </div>
+        
+            <div class="form-item">
+                <label for="user-email">Email</label>
+                <small>Error message</small>
+                <input type="email" placeholder="email@rainydays.com" id="user-email" />
+                
+            </div>
+
             <h3>Payment Options</h3>
             <div class="payment-opt">
               <input type="radio" class="select" id="creditcard" name="payment" value="creditcard" checked>
@@ -115,9 +122,9 @@
               <input type="radio" class="select" id="invoice" name="payment" value="invoice">
               <label for="invoice" class="lbl">Invoice</label>
             </div>  
-            <button type="submit" class="pay-btn">Confirm Checkout</button>      
+            <button class="pay-btn" >Confirm Checkout</button>
           </form>
-      </div>
+        </div>
       </div>
     </div>
    </main>
@@ -172,5 +179,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/cart.js"></script>
 </body>
 </html>
