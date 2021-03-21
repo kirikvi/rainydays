@@ -527,8 +527,7 @@ time {
 
 .jacket-item {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
-  margin: 10px;
-  margin-bottom: 20px;
+  margin: 10px 10px 20px;
   background-color: #fff;
 }
 
@@ -1078,13 +1077,6 @@ p.p-bold-total {
   padding: 0 40px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
-
-* {
-	box-sizing: border-box;
-}
-
 .form {
 	padding: 30px 40px;	
 }
@@ -1594,6 +1586,7 @@ section.jacket-categories a:hover {
 
   .jacket-container {
     flex-wrap: wrap;
+    max-width: 95%;
   }
 
   
