@@ -494,6 +494,7 @@ a.btn {
   margin: 10px 30px;
 }
 
+
 time {
   float: right;
   padding: 10px 30px;
@@ -535,10 +536,6 @@ time {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transform: scale(1.05);
   transition: 0.5s ease-in-out;
-}
-
-.jacket-item img:hover {
-    
 }
 
 /*BACKGROUNDS, MEN, WMN , SALE------------
@@ -892,6 +889,23 @@ p.p-bold-total {
   height: 35px;
 }
 
+.other-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-item {
+  max-width: 250px;
+  margin: 20px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.product-item img {
+  max-width: 150px;
+  border-radius: 5px;
+}
+
 /*ADDED TO CART*/
 #addtocart,
 .cart {
@@ -985,9 +999,11 @@ p.p-bold-total {
 /*CHECKOUT PAGE------------
 ------------------------------------------*/
 .shopping-header,
-.information-header {
+.information-header,
+.order-header {
   top: 10px;
 }
+
 .c-shopping,
 .pay-btn {
   font-size: 1rem;
@@ -1297,7 +1313,6 @@ section.jacket-categories a:hover {
 }
 
 @media screen and (max-width: 885px) {
-  
   .jacket-categories a {
     padding: 20px 75px;
   }
@@ -1503,6 +1518,10 @@ section.jacket-categories a:hover {
   .specific-jacket-container,
   .flex-specific {
     flex-direction: column;
+  }
+
+  #specific-review {
+    justify-content: flex-start;
   }
 
   .addedtocart_popup {

@@ -40,7 +40,6 @@ const review1 = {
                                 <p style="color: gray">${reviews[i].product}</p>
                                 <p>"${reviews[i].review}"</p>
                                 <h3>- ${reviews[i].id}</h3>
-                                
                                 </div>`;                                   
  }
  
