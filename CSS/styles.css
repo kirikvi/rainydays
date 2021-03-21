@@ -1214,6 +1214,7 @@ p.p-bold-total {
     "top top"
     "left right"
     "bottom bottom";
+  position: fixed;
 }
 
 .cart-top {
@@ -1336,6 +1337,11 @@ section.jacket-categories a:hover {
 }
 
 @media screen and (max-width: 885px) {
+
+  .cart-grid {
+    position: relative;
+  }
+
   .jacket-categories a {
     padding: 20px 75px;
   }
