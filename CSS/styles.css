@@ -776,6 +776,7 @@ iframe {
 
 .specific-img {
   max-width: 250px;
+  border-radius: 5px;
 }
 
 .specific-jacket-item,
