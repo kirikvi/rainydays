@@ -1074,7 +1074,7 @@ p.p-bold-total {
 }
 .checkout-details {
   font-weight: 800;
-  padding: 0 40px;
+  padding: 10px;
 }
 
 .form {
@@ -1150,7 +1150,7 @@ p.p-bold-total {
 .pay-btn {
   border: none;
   margin: auto;
-  padding: 10px 40px;
+  padding: 10px 30px;
   display: block;
   color: #f5f5f5;
   background-color: #de784d;
