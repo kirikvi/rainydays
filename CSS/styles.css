@@ -771,7 +771,6 @@ iframe {
 .specific-jacket-container {
   display: flex;
   flex-direction: row;
-  max-width: 90%;
   margin: 20px auto;
 }
 
@@ -815,6 +814,23 @@ hr.separator {
 .flex-specific-item {
   padding: 10px;
   margin: 10px;
+}
+
+.flex-specific-item p{
+  max-width: 500px; 
+}
+
+.review-div img {
+  max-width: 120px;
+  max-height: 120px;
+  float: left;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.jacket-main {
+  max-width: 90%;
+  margin: auto;
 }
 
 li.specs {
