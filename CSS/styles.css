@@ -782,6 +782,7 @@ iframe {
 .specific-jacket-item,
 .specific-jacket-item-form {
   margin: 20px auto;
+  padding: 10px;
 }
 
 .specific-jacket-item-form {
