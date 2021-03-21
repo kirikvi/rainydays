@@ -809,12 +809,12 @@ hr.separator {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .flex-specific-item {
-  padding: 0 100px 50px;
-  flex: 1 1 100%;
+  padding: 10px;
+  margin: 10px;
 }
 
 li.specs {
@@ -896,7 +896,7 @@ p.p-bold-total {
 }
 .product-item {
   max-width: 250px;
-  margin: 20px;
+  margin: 5px 20px 0;
   padding: 10px;
   overflow: hidden;
 }
