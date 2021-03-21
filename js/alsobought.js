@@ -1,16 +1,16 @@
 const product1 = {
     img: "../Images/gray.jpg.jpg",
-    product: "Yellow Jacket",
+    product: "Gray Jacket",
  }   
 
  const product2 = {
     img: "../Images/green.jpg.jpg",
-    product: "Yellow Jacket",
+    product: "Green Jacket",
  }   
 
 const product3 = {
     img: "../Images/orange.jpg.jpg",
-    product: "Yellow Jacket",
+    product: "Orange Jacket",
  }   
 
  const product4 = {
@@ -28,8 +28,10 @@ const product3 = {
     console.log(products[i]); 
 
     productContainer.innerHTML += `<div class="product-item">
+                                <a href="jacket_page.html" style="color: gray">
                                 <img src=${products[i].img}>
-                                <p style="color: gray">${products[i].product}</p>
+                                <p>${products[i].product}</p>
+                                </a>
                                 </div>`;                                   
  }
  

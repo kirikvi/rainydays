@@ -923,6 +923,12 @@ p.p-bold-total {
   border-radius: 5px;
 }
 
+.product-item a{
+  display: block;
+  font-weight: 800;
+  text-align: center;
+}
+
 /*ADDED TO CART*/
 #addtocart,
 .cart {
