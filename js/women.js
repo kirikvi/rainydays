@@ -1,5 +1,5 @@
 const productUrl = "https://kvistnes.one/wp-json/wc/store/products";
-const productContainer = document.querySelector(".jacket-container");
+const women = document.querySelector(".jacket-container-women");
 
 async function fetchProducts() {
     try {
@@ -12,7 +12,7 @@ async function fetchProducts() {
 
         const image = products[i].images[0].src;
 
-        productContainer.innerHTML += 
+        women.innerHTML += 
           `<div class="jacket-item">
             <a href="jacket_page.html?id=${products[i].id}" >
               <img class="yellow" src="${image}" alt="${products[i].description}"/>
@@ -33,5 +33,3 @@ async function fetchProducts() {
     }
 }
 fetchProducts();
-
-// MEN PAGE
