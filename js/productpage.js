@@ -80,7 +80,7 @@ async function fetchJacket(){
                         <p class="p-bold-total">TOTAL</p>
                         <p class="p-bold-price"> £${jacket.prices.price}</p>
                         <hr class="hr-pop"></hr>
-                        <a href="jacket_page.html"><input type="submit" value="Close" class="continue_shopping"></a>
+                        <a href="jacket_page.html?id=${products[i].id}"><input type="submit" value="Close" class="continue_shopping"></a>
                         <a href="shopping-cart.html"><input type="submit" value="Go to checkout" class="addtocart-a"></a>
                     </div>
                 </div>
