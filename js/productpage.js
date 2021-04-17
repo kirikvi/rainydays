@@ -15,7 +15,7 @@ async function fetchJacket(){
 
     title.innerHTML = jacket.name;
 
-        detailContainer.innerHTML += `
+        detailContainer.innerHTML = `
             <div class="specific-jacket-item">
                 <img src="${jacket.images[0].src}"
                 alt="${jacket.description}"/>
