@@ -12,6 +12,8 @@ async function fetchProducts() {
       for(let i = 0; i < products.length; i++){
         console.log(products[i].name);
 
+        const image = products[i].images[0].src;
+
         if(i === 4){
           break;
         }
@@ -19,7 +21,7 @@ async function fetchProducts() {
         productContainer.innerHTML += 
           `<div class="jacket-item">
             <a href="jacket_page.html?id=${products[i].id}" >
-              <img class="yellow" src="${products[i].images.src}" alt="${products[i].description}"/>
+              <img class="yellow" src="${image}" alt="${products[i].description}"/>
               <h3>${products[i].name}</h3>
               <p>£ ${products[i].prices.price}</p>
             </a>

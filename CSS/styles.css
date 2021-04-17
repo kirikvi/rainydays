@@ -285,6 +285,19 @@ hr.underline {
   margin: 0 auto;
 }
 
+.jacket-item a img {
+  max-height: 200px
+}
+
+.jacket-item a {
+  text-decoration: none;
+}
+
+.jacket-item a p,
+.jacket-item a h3 {
+  font-size: 1.4rem;
+}
+
 p {
   font-family: "candara", sans-serif;
   color: #0a3641;
@@ -784,6 +797,11 @@ iframe {
   margin: 20px auto;
   padding: 10px;
 }
+
+.specific-jacket-item img {
+  max-width: 300px;
+}
+
 
 .specific-jacket-item-form {
   min-width: 250px;
