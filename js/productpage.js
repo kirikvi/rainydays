@@ -10,49 +10,30 @@ const jacketUrl = `https://kvistnes.one/wp-json/wc/store/products/${id}`;
 async function fetchJacket(){
     try {
         const fetchUrl = await fetch(jacketUrl);
-        const jacketArray = await fetchUrl.json();
-        console.log(jacketArray);
+        const jacket = await fetchUrl.json();
+        console.log(jacket);
 
-    /*title.innerHTML = drink.strDrink;
+    title.innerHTML = jacket.name;
 
-        const ingredient3 = drink.strMeasure3 + drink.strIngredient3
-        const ingredient4 = drink.strMeasure4 + drink.strIngredient4
-        const ingredient5 = drink.strMeasure5 + drink.strIngredient5
-
-        let ing3Value = "-";
-
-        if(ingredient3){
-            ing3Value = ingredient3;
-        }
-
-        let ing4Value = "-";
-
-        if(ingredient4){
-            ing4Value = ingredient4;
-        }
-
-        let ing5Value = "-";
-
-        if(ingredient5){
-            ing5Value = ingredient5;
-        }
-
-
-        detailContainer.innerHTML = `<h1>${drink.strDrink}</h1>
-                                <img class="thumbnail" src="${drink.strDrinkThumb}" alt="${drink.strDrink}"</div>
-                                <h2>Ingredients</h2>
-                                <ul>
-                                    <li>${drink.strMeasure1} ${drink.strIngredient1}</li>
-                                    <li>${drink.strMeasure2} ${drink.strIngredient2}</li>
-                                    <li>${ing3Value}</li>
-                                    <li>${ing4Value}</li>
-                                    <li>${ing5Value}</li>
-                                </ul> 
-                                <h3>Instructions:</h3> 
-                                <p>${drink.strInstructions}</p>
-                                <p>This drink is a ${drink.strCategory}. Serve it in a ${drink.strGlass}.</p>
-                                </a>`;*/
+        detailContainer.innerHTML += `
+            <div class="specific-jacket-item">
+                <img src="${jacket.images[0].src}"
+                alt="${jacket.description}"/>
+            </div>
+        
+            <div class="specific-jacket-item">
+                <h1>Detailed information about the jacket</h1>
+                <h3 class="specific-heading">${jacket.name}</a></h3>
+                <p>${jacket.description}</p>
+                <ul>
+                    <li class="specs">Waterproof</li>
+                    <li class="specs">Windproof</li>
+                    <li class="specs">High Visibility</li>
+                    <li class="specs">Lifetime Warranty</li>
+                </ul>
+             </div>`;
     }
+
     catch(error) {
         console.log(error);
         detailContainer.innerHTML = `<h2>Oops.. Something went wrong!</h2>`;
