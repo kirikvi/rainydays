@@ -6,7 +6,7 @@ const id = parameters.get("id");
 
 console.log(id);
 
-const jacketUrl = `https://rainydays-kirikvi.netlify.app/jacket_page.html/?id=${id}`;
+const jacketUrl = `https://rainydays-kirikvi.netlify.app/jacket_page.html?id=${id}`;
 
 async function fetchJacket(){
     try {
