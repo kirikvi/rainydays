@@ -31,14 +31,14 @@ async function fetchJacket(){
                     <li class="specs">High Visibility</li>
                     <li class="specs">Lifetime Warranty</li>
                 </ul>
-             </div>
+            </div>
              
-             <div class="specific-jacket-item-form"> 
-             <div class="colour">
+            <div class="specific-jacket-item-form"> 
+            <div class="colour">
                <p class="p-bold">Colour</p>
                <p class="p-description">Orange/Blue</p>
-             </div>
-             <form class="jacket-form"> 
+            </div>
+            <form class="jacket-form"> 
                <span class="size">SIZE</span>
                <input type="radio" name="size" value="small" ID="small">
                <label for="small">S</label>
@@ -48,8 +48,43 @@ async function fetchJacket(){
                <label for="large">L</label>
                <input type="radio" name="size" value="xlarge" ID="xlarge">
                <label for="xlarge">XL</label>
-               <p class="p-bold">£${jacket.prices.price}</p>
-             </form>`;
+               <p class="p-bold">PRICE £${jacket.prices.price}</p>
+            </form>
+             
+            <label for="addtocart" class="addtocart">Add to Cart</label>
+            <input type="checkbox" id="addtocart">
+
+            <section class="cart">
+                <div class="addedtocart_popup">
+                    <div class="popup-heading">
+                        <p>Added to cart</p>
+                        <hr class="hr-pop"></hr>
+                    </div>
+                    <div class="popup-content1">
+                        <img src="${jacket.images[0].src}"
+                        alt="${jacket.description}" class="specific-img-pop"/>
+                    </div>
+                    <div class="popup-content2">
+                        <h3>${jacket.name}</h3>
+                        <div class="line">
+                            <p class="p-bold">colour</p>
+                            <p class="p-description">Orange/Blue</p>
+                        </div>
+                        <div class="line">
+                            <p class="p-bold">size</p>
+                            <p class="p-description">X</p>
+                        </div>
+                    </div>  
+                    <div class="popup-content3">
+                        <hr class="hr-pop"></hr>
+                        <p class="p-bold-total">TOTAL</p>
+                        <p class="p-bold-price"> £${jacket.prices.price}</p>
+                        <hr class="hr-pop"></hr>
+                        <a href="jacket_page.html"><input type="submit" value="Close" class="continue_shopping"></a>
+                        <a href="shopping-cart.html"><input type="submit" value="Go to checkout" class="addtocart-a"></a>
+                    </div>
+                </div>
+            </section>`;
     }
 
     catch(error) {
