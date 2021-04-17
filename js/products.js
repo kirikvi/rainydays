@@ -1,4 +1,4 @@
-const productUrl = "http://kvistnes.one/wp-json/wc/store/products";
+const productUrl = "https://kvistnes.one/wp-json/wc/store/products";
 
 const productContainer = document.querySelector(".jacket-container");
 
@@ -7,10 +7,14 @@ async function fetchProducts() {
     try {
       const productSearch = await fetch(productUrl);
       const products = await productSearch.json();
-      console.log(products);  
+      console.log(products);
 
       for(let i = 0; i < products.length; i++){
         console.log(products[i].name);
+
+        if(i === 4){
+          break;
+        }
 
         productContainer.innerHTML += 
           `<div class="jacket-item">
