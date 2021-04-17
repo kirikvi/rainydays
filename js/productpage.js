@@ -31,7 +31,25 @@ async function fetchJacket(){
                     <li class="specs">High Visibility</li>
                     <li class="specs">Lifetime Warranty</li>
                 </ul>
-             </div>`;
+             </div>
+             
+             <div class="specific-jacket-item-form"> 
+             <div class="colour">
+               <p class="p-bold">Colour</p>
+               <p class="p-description">Orange/Blue</p>
+             </div>
+             <form class="jacket-form"> 
+               <span class="size">SIZE</span>
+               <input type="radio" name="size" value="small" ID="small">
+               <label for="small">S</label>
+               <input type="radio" name="size" value="medium" ID="medium">
+               <label for="medium">M</label>
+               <input type="radio" name="size" value="large" ID="large">
+               <label for="large">L</label>
+               <input type="radio" name="size" value="xlarge" ID="xlarge">
+               <label for="xlarge">XL</label>
+               <p class="p-bold">£${jacket.prices.price}</p>
+             </form>`;
     }
 
     catch(error) {
