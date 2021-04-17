@@ -5,7 +5,7 @@ const parameters = new URLSearchParams(queryString);
 const id = parameters.get("id");
 console.log(id);
 
-const jacketUrl = `https://kvistnes.one/wp-json/wc/store/products/{id}`;
+const jacketUrl = `https://kvistnes.one/wp-json/wc/store/products/${id}`;
 
 async function fetchJacket(){
     try {
