@@ -4,7 +4,7 @@ const queryString = document.location.search;
 const parameters = new URLSearchParams(queryString);
 const id = parameters.get("id");
 
-console.log(queryString);
+console.log(id);
 
 const jacketUrl = `https://rainydays-kirikvi.netlify.app/jacket_page.html{id}`;
 
