@@ -4,17 +4,15 @@ const queryString = document.location.search;
 const parameters = new URLSearchParams(queryString);
 const id = parameters.get("id");
 
-console.log(id);
-
 const jacketUrl = `https://rainydays-kirikvi.netlify.app/jacket_page.html{id}`;
 
-/*async function fetchJacket(){
+async function fetchJacket(){
     try {
         const fetchUrl = await fetch(jacketUrl);
         const jacketArray = await fetchUrl.json();
         console.log(jacketArray);
 
-    title.innerHTML = drink.strDrink;
+    /*title.innerHTML = drink.strDrink;
 
         const ingredient3 = drink.strMeasure3 + drink.strIngredient3
         const ingredient4 = drink.strMeasure4 + drink.strIngredient4
@@ -52,7 +50,7 @@ const jacketUrl = `https://rainydays-kirikvi.netlify.app/jacket_page.html{id}`;
                                 <h3>Instructions:</h3> 
                                 <p>${drink.strInstructions}</p>
                                 <p>This drink is a ${drink.strCategory}. Serve it in a ${drink.strGlass}.</p>
-                                </a>`;
+                                </a>`;*/
     }
     catch(error) {
         console.log(error);
@@ -62,5 +60,4 @@ const jacketUrl = `https://rainydays-kirikvi.netlify.app/jacket_page.html{id}`;
         console.log("finally");
     }
 }
-fetchJacket(); */
-
+fetchJacket(); 
