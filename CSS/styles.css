@@ -291,10 +291,6 @@ hr.underline {
 
 .jacket-item a {
   text-decoration: none;
-}
-
-.jacket-item a p,
-.jacket-item a h3 {
   font-size: 1.4rem;
 }
 

@@ -36,7 +36,7 @@ async function fetchJacket(){
             <div class="specific-jacket-item-form"> 
             <div class="colour">
                <p class="p-bold">Colour</p>
-               <p class="p-description">Orange/Blue</p>
+               <p class="p-description">${jacket.short_description}</p>
             </div>
             <form class="jacket-form"> 
                <span class="size">SIZE</span>
@@ -68,7 +68,7 @@ async function fetchJacket(){
                         <h3>${jacket.name}</h3>
                         <div class="line">
                             <p class="p-bold">colour</p>
-                            <p class="p-description">Orange/Blue</p>
+                            <p class="p-description">${jacket.short_description}</p>
                         </div>
                         <div class="line">
                             <p class="p-bold">size</p>
