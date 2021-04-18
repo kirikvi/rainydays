@@ -1,5 +1,5 @@
 const saleUrl = "https://kvistnes.one/wp-json/wc/store/products";
-const sale = document.querySelector(".jacket-container-sale");
+const sale = document.querySelector(".jacket-container-popular");
 
 async function fetchProducts() {
     try {
