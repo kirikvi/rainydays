@@ -29,7 +29,7 @@ async function fetchProducts() {
     }
 
     catch(error) {
-      console.log("error");
+      console.log(error);
       women.innerHTML = `<h3>Failed to load jackets. Please try again later</h3>`
     }
 

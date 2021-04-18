@@ -1525,6 +1525,11 @@ section.jacket-categories a:hover {
   }
 
 /*OTHER STYLES*/  
+.jacket-container-men,
+.jacket-container-women,
+.jacket-container-sale {
+  grid-template-columns: 1fr 1fr;
+}
 
   .jacket-container {
     display: flex;

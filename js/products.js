@@ -1,6 +1,5 @@
 const productUrl = "https://kvistnes.one/wp-json/wc/store/products";
 const productContainer = document.querySelector(".jacket-container");
-const popular = document.querySelector("#popular");
 
 async function fetchProducts() {
     try {
@@ -25,8 +24,6 @@ async function fetchProducts() {
             <p>£ ${products[i].prices.price}</p>
           </a>
         </div>`;
-
-        //if(products[i].)
       }
     }
 
