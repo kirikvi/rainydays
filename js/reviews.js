@@ -33,8 +33,7 @@ const review1 = {
  reviewsContainer.innerHTML = "";
 
  for(let i = 0; i < reviews.length; i++){
-    console.log(reviews[i]); 
-
+    
      reviewsContainer.innerHTML += `<div class="review-item">
                                 <time>${reviews[i].date}</time>
                                 <p style="color: gray">${reviews[i].product}</p>

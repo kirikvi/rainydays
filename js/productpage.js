@@ -3,7 +3,6 @@ const title = document.querySelector("title");
 const queryString = document.location.search;
 const parameters = new URLSearchParams(queryString);
 const id = parameters.get("id");
-console.log(id);
 
 const jacketUrl = `https://kvistnes.one/wp-json/wc/store/products/${id}`;
 
@@ -11,7 +10,6 @@ async function fetchJacket(){
     try {
         const fetchUrl = await fetch(jacketUrl);
         const jacket = await fetchUrl.json();
-        console.log(jacket);
 
         title.innerHTML = jacket.name;
 

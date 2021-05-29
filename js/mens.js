@@ -5,11 +5,8 @@ async function fetchProducts() {
     try {
       const productSearch = await fetch(productUrl);
       const products = await productSearch.json();
-      console.log(products);
 
       for(let i = 0; i < products.length; i++){
-        console.log(products[i].name);
-
         const image = products[i].images[0].src;
 
         if(products[i].on_sale){
