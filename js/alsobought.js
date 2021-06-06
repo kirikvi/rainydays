@@ -25,8 +25,6 @@ const product3 = {
  productContainer.innerHTML = "";
 
  for(let i = 0; i < products.length; i++){
-    console.log(products[i]); 
-
     productContainer.innerHTML += `<div class="product-item">
                                 <a href="jacket_page.html" style="color: gray">
                                 <img src=${products[i].img}>
